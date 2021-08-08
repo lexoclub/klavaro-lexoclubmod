@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.1.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-04-17 21:56-0300\n"
+"POT-Creation-Date: 2021-06-06 14:05-0300\n"
 "PO-Revision-Date: 2008-11-05 16:51+0600\n"
 "Last-Translator: Md. Rezwan Shahid <rafi6047@yahoo.com>\n"
 "Language-Team: Bangla/Bengali <l10n@ankur.org.bd>\n"
@@ -85,7 +85,7 @@ msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "শিক্ষায় ব্যবহৃতব্য ক্যারেকটার সেটটি পরিবর্তন করুন।"
 
-#: ../data/klavaro.glade.h:17 ../src/tutor.c:397
+#: ../data/klavaro.glade.h:17 ../src/tutor.c:401
 msgid "Drag and drop text here to practice with it."
 msgstr "এখানে টেক্সট টেনে এনে অনুশীলন করুন।"
 
@@ -270,7 +270,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "স্পেসবার"
 
-#: ../data/klavaro.glade.h:57 ../src/keyboard.c:1722
+#: ../data/klavaro.glade.h:57 ../src/keyboard.c:1726
 msgid "thumbs"
 msgstr "বুড়ো আঙ্গুল"
 
@@ -474,20 +474,20 @@ msgstr "'Klavaro'"
 msgid "A very flexible and efficient touch typing tutor."
 msgstr "আরেকটি স্পর্শ টাইপিং শিক্ষক"
 
-#: ../src/main.c:304
+#: ../src/main.c:308
 msgid "(Custom)"
 msgstr ""
 
-#: ../src/main.c:305
+#: ../src/main.c:309
 msgid "(Edit custom)"
 msgstr ""
 
-#: ../src/main.c:306
+#: ../src/main.c:310
 #, fuzzy
 msgid "(Default)"
 msgstr "ডিফল্ট"
 
-#: ../src/main.c:383
+#: ../src/main.c:387
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -496,97 +496,97 @@ msgstr[1] ""
 
 #. Set main labels (for translation)
 #.
-#: ../src/main.c:425 ../src/keyboard.c:1381
+#: ../src/main.c:429 ../src/keyboard.c:1385
 msgid "Introduction"
 msgstr "পরিচিতি"
 
-#: ../src/main.c:428 ../src/top10.c:110
+#: ../src/main.c:432 ../src/top10.c:114
 msgid "Basic course"
 msgstr "প্রারম্ভিক কোর্স"
 
-#: ../src/main.c:431 ../src/top10.c:113
+#: ../src/main.c:435 ../src/top10.c:117
 msgid "Adaptability"
 msgstr "সঙ্গতিপ্রবণতা (খাপ খাওয়াবার ক্ষমতা)"
 
-#: ../src/main.c:435 ../src/main.c:437 ../src/callbacks.c:1402
-#: ../src/top10.c:90 ../src/top10.c:116
+#: ../src/main.c:439 ../src/main.c:441 ../src/callbacks.c:1406
+#: ../src/top10.c:94 ../src/top10.c:120
 msgid "Speed"
 msgstr ""
 
-#: ../src/main.c:440 ../src/callbacks.c:1425 ../src/top10.c:92
-#: ../src/top10.c:119
+#: ../src/main.c:444 ../src/callbacks.c:1429 ../src/top10.c:96
+#: ../src/top10.c:123
 msgid "Fluidity"
 msgstr ""
 
-#: ../src/callbacks.c:481 ../src/tutor.c:543
+#: ../src/callbacks.c:485 ../src/tutor.c:547
 #, fuzzy
 msgid "Keys:"
 msgstr "কী (Key): %s"
 
-#: ../src/callbacks.c:876 ../src/callbacks.c:892
+#: ../src/callbacks.c:880 ../src/callbacks.c:896
 msgid "Connecting..."
 msgstr ""
 
-#: ../src/callbacks.c:1165
+#: ../src/callbacks.c:1169
 msgid "Overwrite user layout"
 msgstr "ব্যবহারকারীর লেআউট ওভাররাইট করুন"
 
-#: ../src/callbacks.c:1167
+#: ../src/callbacks.c:1171
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "এটি বর্তমানে উপস্থিত একটি কীবোর্ড লেআউট ওভাররাইট করবে।"
 
-#: ../src/callbacks.c:1174
+#: ../src/callbacks.c:1178
 msgid "Remove user layout"
 msgstr "ব্যবহারকারীর লেআউট মুছে ফেলুন"
 
-#: ../src/callbacks.c:1176
+#: ../src/callbacks.c:1180
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "এটি বর্তমানে উপস্থিত একটি কীবোর্ড লেআউট মুছে ফেলবে।"
 
-#: ../src/callbacks.c:1183 ../src/callbacks.c:1188
+#: ../src/callbacks.c:1187 ../src/callbacks.c:1192
 msgid "Reset progress data"
 msgstr ""
 
-#: ../src/callbacks.c:1184
+#: ../src/callbacks.c:1188
 msgid "This will DELETE all the progress data of all modules."
 msgstr ""
 
-#: ../src/callbacks.c:1196
+#: ../src/callbacks.c:1200
 #, c-format
 msgid "This will delete the data of this chart. <%s>"
 msgstr ""
 
-#: ../src/callbacks.c:1199
+#: ../src/callbacks.c:1203
 #, c-format
 msgid "This will delete the progress data of the module. (%s)"
 msgstr ""
 
-#: ../src/callbacks.c:1399 ../src/top10.c:88
+#: ../src/callbacks.c:1403 ../src/top10.c:92
 msgid "Accuracy"
 msgstr "নির্ভুলতা"
 
-#: ../src/callbacks.c:1402 ../src/tutor.c:1325
+#: ../src/callbacks.c:1406 ../src/tutor.c:1329
 msgid "(WPM)"
 msgstr "(WPM)"
 
-#: ../src/callbacks.c:1413
+#: ../src/callbacks.c:1417
 msgid "Errors"
 msgstr ""
 
-#: ../src/callbacks.c:1416
+#: ../src/callbacks.c:1420
 msgid "Touch times (s)"
 msgstr ""
 
-#: ../src/callbacks.c:1428 ../src/tutor.c:1352 ../src/top10.c:70
+#: ../src/callbacks.c:1432 ../src/tutor.c:1356 ../src/top10.c:74
 msgid "Score"
 msgstr "স্কোর"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:522 ../src/tutor.c:1758
+#: ../src/translation.c:526 ../src/tutor.c:1762
 msgid "en"
 msgstr "bn"
 
-#: ../src/translation.c:609
+#: ../src/translation.c:613
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -597,7 +597,7 @@ msgstr ""
 "(key) চাপতে হবে। কীবোর্ডের হোম অবস্থান থেকে সঠিক অবস্থানে আঙ্গুল গুলো সরানো মনে "
 "রাখবেন (প্রধান মেনুতে নির্দেশনা দে‌‌‌‌‌‌‌‌‌‌‌‌‌খুন)।"
 
-#: ../src/translation.c:613
+#: ../src/translation.c:617
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -607,7 +607,7 @@ msgstr ""
 "[শিফট], এবং [এন্টার] কীগুলো সেখানে নাও দেখানো হতে পারে কারন সবাই জানে যে এগুলো "
 "খুব বেশি ব্যবহার করা হয়।"
 
-#: ../src/translation.c:616
+#: ../src/translation.c:620
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -615,7 +615,7 @@ msgstr ""
 "নিচের বার্তা লাইন আপনার স্পর্শ অনুসরন করে এবং  সেই অক্ষরটি দেখায়। যদি প্রয়োজন হয়, "
 "তাহলে এটি আপনার করনীয় পরিবর্তন করবে এবং এ সম্পর্কে নির্দেশনা দিবে।"
 
-#: ../src/translation.c:620
+#: ../src/translation.c:624
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -624,7 +624,7 @@ msgstr ""
 "এখানে আপনি অনুশীলন করতে পারবেন এবং সবগুলো কী (key) এর অবস্থান মুখস্থ করতে পারবেন। "
 "এতে কিছু অর্থ বিহীন শব্দ, মিশ্রিত অবস্থায় বিভিন্ন সংখ্যা এবং চিহ্ন থাকবে।"
 
-#: ../src/translation.c:623
+#: ../src/translation.c:627
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -634,7 +634,7 @@ msgstr ""
 "পারে। বাক্য ব্যবহার করে আসল শব্দের অনুশীলন করতে প্রধান মেনুর (দ্রুততা সম্পর্কে) ৪র্থ "
 "পছন্দ ব্যবহার করুন।"
 
-#: ../src/translation.c:627
+#: ../src/translation.c:631
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -642,7 +642,7 @@ msgstr ""
 "প্রত্যেক অনুশীলনীর শেষে, আপনার কর্মদক্ষতার একটি পরিসংখ্যান এবং এর সাথে সম্পর্কিত "
 "মন্তব্য আপনাকে দেখানো হবে।"
 
-#: ../src/translation.c:631
+#: ../src/translation.c:635
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -650,7 +650,7 @@ msgstr ""
 "এই অনুশীলনটিও দ্বিতীয় অনুশীলনটির মত, খাপ খাওয়ানোর জন্য। পার্থক্য হলো এখানে আপনাকে "
 "প্রকৃত শব্দসমূহ টাইপ করতে হবে।"
 
-#: ../src/translation.c:634
+#: ../src/translation.c:638
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -660,7 +660,7 @@ msgstr ""
 "কোনো টেক্সট নির্বাচন করতে পারবেন। উপরের 'অণ্য' অপশনটি চাপুন এবং ওই টেক্সটসমূহ "
 "ধারণকারী ফাইলগুলো যুক্ত করুন।"
 
-#: ../src/translation.c:638
+#: ../src/translation.c:642
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -668,7 +668,7 @@ msgstr ""
 "এই অনুশীলনের উদ্দেশ্য হলো গতি। তাই, আপনাকে খুব  দ্রুত টাইপ করতে হবে এবং কেবলমাত্র "
 "তখনই আমি আপনাকে সাধুবাদ জানাবো যখন আপনি এটির যোগ্যতা অর্জন করবেন!"
 
-#: ../src/translation.c:642
+#: ../src/translation.c:646
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -680,7 +680,7 @@ msgstr ""
 "অনুশীলনগুলো করে থাকেন, তাহলে এতে আপনার কোন রকম অসুবিধা হওয়ার কথা না যেহেতু "
 "টেক্সটকে না বুঝে এবং গবেযনা না করে টাইপ করার অভ্যাস আপনার হয়ে গিয়েছে।"
 
-#: ../src/translation.c:646
+#: ../src/translation.c:650
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -694,7 +694,7 @@ msgstr ""
 "করতে চাই। এই স্তরে পৌঁছানোর পরে টাইপ করতে আপনাকে যুদ্ধ করতে হবে না: আপনি পাঠ্যের "
 "অর্থের দিকে মনোযোগ দিতে পারবেন।"
 
-#: ../src/translation.c:650
+#: ../src/translation.c:654
 #, fuzzy
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
@@ -707,7 +707,7 @@ msgstr ""
 "ভূল সঠিক করতে আপনি অবশ্যই ব্যাকস্পেস কী ব্যবহার করবেন। অন্যভাবে বলা যায়, শুধুমাত্র "
 "ত্রুটিহীন টেক্সট গ্রহন করা হবে।"
 
-#: ../src/keyboard.c:1181
+#: ../src/keyboard.c:1185
 #, fuzzy
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
@@ -717,13 +717,13 @@ msgstr ""
 "সুদক্ষভঅবে টাইপ করার জন্য হাত এবং আঙ্গুলসমূহের সঠিক অবস্থান অত্যন্ত জরুরী। পরামর্শসমূহ "
 "অনুসরণ করুন এবং আপনি দ্রুত শিখতে পারবেন।"
 
-#: ../src/keyboard.c:1184
+#: ../src/keyboard.c:1188
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
 msgstr ""
 
-#: ../src/keyboard.c:1187
+#: ../src/keyboard.c:1191
 #, fuzzy
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
@@ -735,19 +735,19 @@ msgstr ""
 "আপনার আর কি-বোর্ড দেখার প্রয়োজন হবে না। এর ফলে প্রতিবার কী তে স্পর্শ করার পর "
 "আপনার হাত স্বাভাবিকভাবে সঠিক অবস্থানে চলে আসবে।"
 
-#: ../src/keyboard.c:1191
+#: ../src/keyboard.c:1195
 #, fuzzy
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
 msgstr "৩)  অন্য আঙ্গুলসমূহ তর্জনীর পাশের একই লাইনে সন্নিহিত কীসমূহের উপরে থাকবে।"
 
-#: ../src/keyboard.c:1194
+#: ../src/keyboard.c:1198
 #, fuzzy
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "২)  উভয় বৃদ্ধাঙ্গুলের পার্শ্ব স্পেসবারের উপরে থাকবে।"
 
-#: ../src/keyboard.c:1196
+#: ../src/keyboard.c:1200
 #, fuzzy
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
@@ -757,7 +757,7 @@ msgstr ""
 "৪)  কব্জির কাছের হাতের অংশ (ভিত্তি) কি-বোর্ডের বাইরে, টেবিলের উপরে থাকে। এই "
 "ধরণের সমর্থন ছাড়া বাহুগুলো অতি দ্রুত ক্লান্ত হয়ে পরবে।"
 
-#: ../src/keyboard.c:1199
+#: ../src/keyboard.c:1203
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -770,7 +770,7 @@ msgstr ""
 "এর সাথে আঙ্গুলের একটি সুনির্দিস্ট সম্পর্ক স্থাপন করতে হবে। এই সম্পর্কগুলো প্রারম্ভিক "
 "কোর্সে শেখানো হবে।"
 
-#: ../src/keyboard.c:1205
+#: ../src/keyboard.c:1209
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -780,7 +780,7 @@ msgstr ""
 "কী চাপতে আপনার নির্দিষ্ট আঙ্গুলটি নড়ে এবং যতদূর সম্ভব অন্যান্য আঙ্গুল গুলো তাদের আসল "
 "অবস্থানে থাকে।"
 
-#: ../src/keyboard.c:1209
+#: ../src/keyboard.c:1213
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -788,7 +788,7 @@ msgstr ""
 "এই সম্পর্ক মুখস্ত করার পরে, আপনি পূর্ববর্তী নিয়মটি হালকাভাবে নিতে পারবেন, যাতে করে "
 "গতি এবং দ্রুততা বৃদ্ধি করা সম্ভব হয়।"
 
-#: ../src/keyboard.c:1212
+#: ../src/keyboard.c:1216
 msgid ""
 "The shift keys are used for capital letters and for some symbols. To get a "
 "shifted key input you should first use the small finger of the opposite "
@@ -796,7 +796,7 @@ msgid ""
 "the other hand."
 msgstr ""
 
-#: ../src/keyboard.c:1216
+#: ../src/keyboard.c:1220
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -806,23 +806,23 @@ msgstr ""
 "স্পর্শ-টাইপ এর জন্য ইচ্ছা এবং ধৈর্য্য প্রয়োজন! আমরা আপনাকে বিশ্বাস করি, আমদেরকে হতাশ "
 "করবেন না, তাই না?"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1231
 #, c-format
 msgid "Step %i"
 msgstr ""
 
 #. Recommendations
-#: ../src/keyboard.c:1231
+#: ../src/keyboard.c:1235
 #, fuzzy
 msgid "To position the hands"
 msgstr "হাতের অবস্থান ঠিক করতে:"
 
 #. Final words
-#: ../src/keyboard.c:1314
+#: ../src/keyboard.c:1318
 msgid "Go ahead!"
 msgstr ""
 
-#: ../src/keyboard.c:1322 ../src/keyboard.c:1324
+#: ../src/keyboard.c:1326 ../src/keyboard.c:1328
 #, fuzzy
 msgid "Click on any key to see which finger you must use:"
 msgstr ""
@@ -830,58 +830,58 @@ msgstr ""
 "তা দেখার জন্য\n"
 "উপরের যেকোনোটিটে ক্লিক করুন"
 
-#: ../src/keyboard.c:1323
+#: ../src/keyboard.c:1327
 #, fuzzy
 msgid "Relation between fingers and keys"
 msgstr "আঙ্গুল ও কী এর মধ্যে সম্পর্ক প্রদর্শন করুন"
 
-#: ../src/keyboard.c:1381 ../src/keyboard.c:1415
+#: ../src/keyboard.c:1385 ../src/keyboard.c:1419
 msgid "Keyboard"
 msgstr "কিবোর্ড"
 
-#: ../src/keyboard.c:1462
+#: ../src/keyboard.c:1466
 #, fuzzy
 msgid "Create or modify a custom keyboard layout"
 msgstr "নতুন কিবোর্ড লেআউটের জন্য একটি নাম লিখুন"
 
-#: ../src/keyboard.c:1710 ../src/keyboard.c:1734
+#: ../src/keyboard.c:1714 ../src/keyboard.c:1738
 msgid "small finger"
 msgstr "কনিষ্ঠা"
 
-#: ../src/keyboard.c:1713 ../src/keyboard.c:1731
+#: ../src/keyboard.c:1717 ../src/keyboard.c:1735
 msgid "ring finger"
 msgstr "অনামিকা"
 
-#: ../src/keyboard.c:1716 ../src/keyboard.c:1728
+#: ../src/keyboard.c:1720 ../src/keyboard.c:1732
 msgid "middle finger"
 msgstr "মধ্যমা"
 
-#: ../src/keyboard.c:1719 ../src/keyboard.c:1725
+#: ../src/keyboard.c:1723 ../src/keyboard.c:1729
 msgid "index finger"
 msgstr "তর্জনী"
 
-#: ../src/keyboard.c:1820
+#: ../src/keyboard.c:1824
 #, fuzzy
 msgid "Press and edit me"
 msgstr "একটি কী চাপুন"
 
-#: ../src/tutor.c:321
+#: ../src/tutor.c:325
 msgid "Lesson:"
 msgstr "শিক্ষা"
 
-#: ../src/tutor.c:331
+#: ../src/tutor.c:335
 msgid "Paragraphs:"
 msgstr "প্যারাগ্রাফ:"
 
-#: ../src/tutor.c:364
+#: ../src/tutor.c:368
 msgid "Klavaro - Basic Course"
 msgstr "ক্লাভারো - প্রারম্ভিক কোর্স"
 
-#: ../src/tutor.c:369
+#: ../src/tutor.c:373
 msgid "Klavaro - Adaptability"
 msgstr "ক্লাভারো - মানিয়ে নেয়া"
 
-#: ../src/tutor.c:372
+#: ../src/tutor.c:376
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
@@ -889,44 +889,44 @@ msgstr ""
 "মানিয়ে নেয়ার অনুশীলন: আঙ্গুলগুলো স্বয়ংক্রিয়ভাবে সাড়া দেয়, পুরো কীবোর্ড-র উপর টাইপ "
 "করা। "
 
-#: ../src/tutor.c:377
+#: ../src/tutor.c:381
 msgid "Klavaro - Velocity"
 msgstr "ক্লাভারো - গতি"
 
-#: ../src/tutor.c:378
+#: ../src/tutor.c:382
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "গতি অনুশীলন: আসল শব্দ টাইপ করে গতি বাড়ান।  "
 
-#: ../src/tutor.c:382
+#: ../src/tutor.c:386
 msgid "Klavaro - Fluidness"
 msgstr "ক্লাভারো - দ্রুততা"
 
-#: ../src/tutor.c:384
+#: ../src/tutor.c:388
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "দ্রুততা অনুশীলন: ভালো প্যারাগ্রাফ টাইপ করে নির্ভুলতা বাড়ান। "
 
-#: ../src/tutor.c:446
+#: ../src/tutor.c:450
 #, fuzzy
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "<<==  অনুশীলনের সমাপ্তি। আরেকটি শুরু করতে [Enter] চাপুন। ==>> "
 
-#: ../src/tutor.c:474
+#: ../src/tutor.c:478
 msgid "Learning the key positions."
 msgstr "কী (key)-র অবস্থান শিখুন। "
 
-#: ../src/tutor.c:477
+#: ../src/tutor.c:481
 msgid "Press any key to start the exercise. "
 msgstr "অনুশীলন শুরু করতে যেকোনো কী (key) চাপুন।"
 
-#: ../src/tutor.c:605 ../src/tutor.c:608
+#: ../src/tutor.c:609 ../src/tutor.c:612
 msgid "Start typing when you are ready. "
 msgstr "আপনি যখন প্রস্তুত হবেন তখন টাইপিং শুরু করুন।  "
 
-#: ../src/tutor.c:606
+#: ../src/tutor.c:610
 msgid "Use backspace to correct errors."
 msgstr ""
 
-#: ../src/tutor.c:1053
+#: ../src/tutor.c:1057
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -935,11 +935,11 @@ msgstr ""
 "বি: দ্র: এই সেশনের জন্য লগিং সম্পন্ন হয়নি: টাইপ করা ক্যারেক্টার এর সংখ্যা (%i) %i "
 "এর চেয়ে বেশি হতে হবে।   "
 
-#: ../src/tutor.c:1193
+#: ../src/tutor.c:1197
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "বি: দ্র: আপনি সেরা ১০ এর লিস্টে ঢুকে গেছেন, দারুন! "
 
-#: ../src/tutor.c:1207
+#: ../src/tutor.c:1211
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -949,109 +949,109 @@ msgstr ""
 "র মত লাগছে না: আমরা এটিকে 'সেরা ১০' এ স্থান দিতে পারছি না।  "
 
 #. Begin the accuracy
-#: ../src/tutor.c:1252
+#: ../src/tutor.c:1256
 msgid "STATISTICS"
 msgstr "পরিসংখ্যান"
 
-#: ../src/tutor.c:1253
+#: ../src/tutor.c:1257
 msgid "Elapsed time:"
 msgstr "অতিবাহিত সময়:"
 
-#: ../src/tutor.c:1254
+#: ../src/tutor.c:1258
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "মিনিট এবং"
 msgstr[1] "মিনিট এবং\t"
 
-#: ../src/tutor.c:1255
+#: ../src/tutor.c:1259
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "সেকেন্ড"
 msgstr[1] "সেকেন্ড"
 
-#: ../src/tutor.c:1256
+#: ../src/tutor.c:1260
 msgid "Error ratio:"
 msgstr ""
 
-#: ../src/tutor.c:1256
+#: ../src/tutor.c:1260
 msgid "Accuracy:"
 msgstr "নির্ভুলতা:"
 
-#: ../src/tutor.c:1277 ../src/tutor.c:1302 ../src/tutor.c:1325
-#: ../src/tutor.c:1351
+#: ../src/tutor.c:1281 ../src/tutor.c:1306 ../src/tutor.c:1329
+#: ../src/tutor.c:1355
 msgid "Goal:"
 msgstr "উদ্দেশ্য:"
 
-#: ../src/tutor.c:1284
+#: ../src/tutor.c:1288
 msgid "Characters per second:"
 msgstr "প্রতি সেকেন্ডে ক্যারেক্টার: "
 
-#: ../src/tutor.c:1302
+#: ../src/tutor.c:1306
 msgid "(CPS)"
 msgstr "(CPS)"
 
-#: ../src/tutor.c:1307
+#: ../src/tutor.c:1311
 msgid "Words per minute:"
 msgstr "প্রতি মিনিটে শব্দ:"
 
-#: ../src/tutor.c:1332
+#: ../src/tutor.c:1336
 msgid "Fluidness:"
 msgstr "দ্রুততা"
 
-#: ../src/tutor.c:1359
+#: ../src/tutor.c:1363
 msgid "Comments:"
 msgstr "মন্তব্য:"
 
-#: ../src/tutor.c:1837
+#: ../src/tutor.c:1841
 msgid "space"
 msgstr ""
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1842
+#: ../src/tutor.c:1846
 msgid "wye"
 msgstr ""
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1846
+#: ../src/tutor.c:1850
 msgid "enter"
 msgstr ""
 
-#: ../src/tutor.c:1852
+#: ../src/tutor.c:1856
 msgid "apostrophe"
 msgstr ""
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1856
+#: ../src/tutor.c:1860
 msgid "quote"
 msgstr ""
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1860
+#: ../src/tutor.c:1864
 msgid "ampersand"
 msgstr ""
 
 #. Error frequencies or touch times
 #.
-#: ../src/plot.c:314
+#: ../src/plot.c:318
 msgid "Character"
 msgstr ""
 
-#: ../src/plot.c:326
+#: ../src/plot.c:330
 msgid "Date & Time"
 msgstr ""
 
-#: ../src/basic.c:273
+#: ../src/basic.c:277
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
 "right corner."
 msgstr ""
 
-#: ../src/basic.c:372
+#: ../src/basic.c:376
 msgid "Positions of keys seems to be learned!"
 msgstr "মনে হচ্ছে কী(key) গুলোর অবস্থান শেখা হয়ে গেছে!"
 
-#: ../src/basic.c:373
+#: ../src/basic.c:377
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1063,7 +1063,7 @@ msgstr ""
 " পরবর্তী ধরনের অনুশীলনে যান: মানিয়ে নেয়া।\n"
 " সেখানে আপনি প্রধানত নির্ভুলতা অনুশীলনে করবেন।\n"
 
-#: ../src/basic.c:379
+#: ../src/basic.c:383
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -1071,7 +1071,7 @@ msgstr ""
 " ঠিক আছে, এবার হয়েছে!\n"
 " পরবর্তী শিক্ষাতে যান।\n"
 
-#: ../src/adaptability.c:247
+#: ../src/adaptability.c:251
 #, fuzzy, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
@@ -1080,7 +1080,7 @@ msgstr ""
 " আপনার নির্ভুলতার মাত্রা ৯০% এর নিচে...\n"
 " আপনি কি অনুগ্রহ করে এর উন্নতি করার চেষ্টা করবেন?\n"
 
-#: ../src/adaptability.c:250
+#: ../src/adaptability.c:254
 #, fuzzy, c-format
 msgid ""
 " You are doing well. But...\n"
@@ -1089,7 +1089,7 @@ msgstr ""
 " আপনি ভালো করছেন। কিন্তু...\n"
 " আপনি কি নির্ভুলতার মাত্রা ৯৫% এ নিতে পারেন?\n"
 
-#: ../src/adaptability.c:253
+#: ../src/adaptability.c:257
 #, fuzzy, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1100,7 +1100,7 @@ msgstr ""
 " আরো কয়েকবার চেষ্টা করুন, অথবা আপনি হয়তো বিষন্ন হয়ে পরছেন, তাই অন্য ধরনের "
 "অনুশীলন এ যান।\n"
 
-#: ../src/adaptability.c:260
+#: ../src/adaptability.c:264
 #, fuzzy, c-format
 msgid ""
 " Very good!\n"
@@ -1113,11 +1113,11 @@ msgstr ""
 " এবার আপনার গতি বাড়ানোর সময়।\n"
 " প্রধান মেন্যুর ৩য় অনুশীলনে যান।\n"
 
-#: ../src/velocity.c:333 ../src/fluidness.c:436
+#: ../src/velocity.c:337 ../src/fluidness.c:440
 msgid "Pasted_or_dropped"
 msgstr "Pasted_or_dropped"
 
-#: ../src/velocity.c:444
+#: ../src/velocity.c:448
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -1127,7 +1127,7 @@ msgstr ""
 " ধৈর্য ধরুন, প্রতিদিন চেষ্টা করুন, বিশ্রাম নিন এবং বেশি চিন্তা করবেন না:\n"
 " পরিশ্রম এবং অনুশীলন করলে আপনার গতি বাড়বে।\n"
 
-#: ../src/velocity.c:448
+#: ../src/velocity.c:452
 #, fuzzy, c-format
 msgid ""
 " Still away from the highway. You can do better...\n"
@@ -1136,7 +1136,7 @@ msgstr ""
 " এখনও আপনি অনেক দূরে। আপনি আরো ভালো করতে পারেন...\n"
 " অন্তত ২০ WPM করার চেষ্টা করুন।\n"
 
-#: ../src/velocity.c:451
+#: ../src/velocity.c:455
 #, fuzzy, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
@@ -1145,7 +1145,7 @@ msgstr ""
 " আপনি ভালো করছেন, কিন্তু আরো দ্রুত হওয়া দরকার।\n"
 " এবং নির্ভুলতার কথা ভুলে যাবেন না। ৩০ WPM করার চেষ্টা করুন।\n"
 
-#: ../src/velocity.c:454
+#: ../src/velocity.c:458
 #, fuzzy, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
@@ -1154,7 +1154,7 @@ msgstr ""
 " ভালো। এবার আপনাকে দৌড়াতে হবে।\n"
 " আপনি কি ৪০ WPM করতে পারেন?\n"
 
-#: ../src/velocity.c:457
+#: ../src/velocity.c:461
 #, fuzzy, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -1163,7 +1163,7 @@ msgstr ""
 " খুব ভালো। আপনি প্রায় পৌছে গিয়েছেন।\n"
 " আপনি কি শেষ পর্যন্ত ৫০ WPM এ পৌছতে পারেন?\n"
 
-#: ../src/velocity.c:460
+#: ../src/velocity.c:464
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -1171,7 +1171,7 @@ msgstr ""
 " দারুন। এই কোর্স এর জন্য এটি যথেষ্ট।\n"
 " এখন দ্রুততার অনুশীলন করুন, ঠিক আছে?\n"
 
-#: ../src/velocity.c:463
+#: ../src/velocity.c:467
 #, fuzzy, c-format
 msgid ""
 " Fast! Are you a professional?\n"
@@ -1182,13 +1182,13 @@ msgstr ""
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
-#: ../src/velocity.c:468
+#: ../src/velocity.c:472
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr ""
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
-#: ../src/velocity.c:472
+#: ../src/velocity.c:476
 #, fuzzy, c-format
 msgid ""
 " Kung-fu mastery!\n"
@@ -1198,7 +1198,7 @@ msgstr ""
 " আপনি কি ৯০ WPM এ উড়তে পারেন?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout. Feel free to change the speed mastery analogy.
-#: ../src/velocity.c:475
+#: ../src/velocity.c:479
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
@@ -1206,7 +1206,7 @@ msgstr ""
 " Dvorak মাস্টার!\n"
 " আমি প্রশংসা করার ভাষা খুজে পাচ্ছিনা!\n"
 
-#: ../src/fluidness.c:539
+#: ../src/fluidness.c:543
 #, fuzzy, c-format
 msgid ""
 " You type accurately but not so fast.\n"
@@ -1215,7 +1215,7 @@ msgstr ""
 " আপনি নির্ভুলভাবে টাইপ করেন কিন্তু যথেষ্ট তাড়াতাড়ি নয়।\n"
 " আপনি কি ৫০ WPM এ পৌছতে পারেন?\n"
 
-#: ../src/fluidness.c:542
+#: ../src/fluidness.c:546
 #, fuzzy, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
@@ -1224,7 +1224,7 @@ msgstr ""
 " আপনার ছন্দ যথেষ্ট স্থির নয়। আস্তে করুন।\n"
 " এখন, দ্রুততা ৭০% এর অধিক করার চেষ্টা করুন।\n"
 
-#: ../src/fluidness.c:545
+#: ../src/fluidness.c:549
 #, fuzzy, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
@@ -1233,7 +1233,7 @@ msgstr ""
 " আপনি প্রায় পৌছে যাচ্ছেন। আরো দ্রুত টাইপ করুন।\n"
 " আমি ৮০% এর অধিক দ্রুততা চাই।\n"
 
-#: ../src/fluidness.c:548
+#: ../src/fluidness.c:552
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -1245,7 +1245,7 @@ msgstr ""
 " আপনার এই প্রোগ্রামটির (আমাকে) আর প্রয়োজন নেই।\n"
 " আশা করি আপনি উপভোগ করেছেন। ধন্যবাদ!\n"
 
-#: ../src/fluidness.c:553
+#: ../src/fluidness.c:557
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -1257,52 +1257,52 @@ msgstr ""
 " আপনি কি একটি যন্ত্র? আপনি কি আমাকে শেখাবেন?\n"
 " আমি আপনাকে আর সাহায্য করতে পারব না। একজন বিশেষজ্ঞের কাছে যান!\n"
 
-#: ../src/top10.c:68
+#: ../src/top10.c:72
 msgid "Name"
 msgstr ""
 
-#: ../src/top10.c:94
+#: ../src/top10.c:98
 msgid "Chars"
 msgstr "ক্যারেক্টার"
 
-#: ../src/top10.c:96
+#: ../src/top10.c:100
 msgid "When"
 msgstr "কখন"
 
-#: ../src/top10.c:125
+#: ../src/top10.c:129
 msgid "Local scores"
 msgstr "স্থানীয় স্কোর"
 
-#: ../src/top10.c:126
+#: ../src/top10.c:130
 #, fuzzy
 msgid "External scores"
 msgstr "এখনই বহিঃস্থ ফলাফলের তালিক করুন!"
 
-#: ../src/top10.c:713
+#: ../src/top10.c:717
 msgid "Empty ranking. Please practice fluidness."
 msgstr ""
 
-#: ../src/top10.c:810
+#: ../src/top10.c:814
 msgid "Not able to download files"
 msgstr "ফাইল ডাউনলোড করতে ব্যর্থ"
 
-#: ../src/top10.c:810 ../src/top10.c:902
+#: ../src/top10.c:814 ../src/top10.c:906
 msgid "not found"
 msgstr "পাওয়া যায়নি"
 
-#: ../src/top10.c:811 ../src/top10.c:903
+#: ../src/top10.c:815 ../src/top10.c:907
 msgid "Are you sure you have it installed in your system?"
 msgstr "আপনি কি নিশ্চিত যে এটি আপনার সিস্টেমে ইনস্টল করা আছে?"
 
-#: ../src/top10.c:857
+#: ../src/top10.c:861
 msgid "Could not download file from the host server."
 msgstr "হোস্ট সার্ভার থেকে ফাইল ডাউনলোড করতে ব্যর্থ।"
 
-#: ../src/top10.c:902
+#: ../src/top10.c:906
 msgid "Not able to upload files"
 msgstr "ফাইল আপলোড করতে ব্যর্থ।"
 
-#: ../src/top10.c:989
+#: ../src/top10.c:993
 #, fuzzy
 msgid "Could not upload/download scores."
 msgstr "লোকাল স্কোর আপলোড করা যায়নি।"

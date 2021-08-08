@@ -1,7 +1,7 @@
 Klavaro - a flexible touch typing tutor
 -----------------------------------------------------------------
 Copyright (C) 2005-2021 Felipe Emmanuel Ferreira de Castro 
-			<fe20 at penso dot eu dot com dot br>
+			<fefcas at gmail dot com>
 
 Klavaro is a free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published
@@ -99,7 +99,7 @@ file. They give the limits for each tutor module, so the user is told when
 he/she should go to the next level. They also appear as horizontal lines in
 the progress charts.
 The default key/value pairs used in the application show up after the first
-time one runs and close it gracefully, take a look at your preferences.ini file.
+time one runs and closes it gracefully, take a look at your preferences.ini file.
 
 - LEVELS
 

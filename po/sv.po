@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 3.10\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-04-17 21:56-0300\n"
+"POT-Creation-Date: 2021-06-06 14:05-0300\n"
 "PO-Revision-Date: 2021-01-04 23:46+0100\n"
 "Last-Translator: Josef Andersson <l10nl18nsweja@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -80,7 +80,7 @@ msgstr ""
 "Ändra teckenuppsättningen som skall användas efter lektion 43. De är "
 "anpassningsbara!"
 
-#: ../data/klavaro.glade.h:17 ../src/tutor.c:397
+#: ../data/klavaro.glade.h:17 ../src/tutor.c:401
 msgid "Drag and drop text here to practice with it."
 msgstr "Dra och släpp text här för att öva på den."
 
@@ -250,7 +250,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "MELLANSLAG"
 
-#: ../data/klavaro.glade.h:57 ../src/keyboard.c:1722
+#: ../data/klavaro.glade.h:57 ../src/keyboard.c:1726
 msgid "thumbs"
 msgstr "tummar"
 
@@ -434,19 +434,19 @@ msgstr "Klavaro"
 msgid "A very flexible and efficient touch typing tutor."
 msgstr "En mycket flexibel och effektiv tangentbordstränare."
 
-#: ../src/main.c:304
+#: ../src/main.c:308
 msgid "(Custom)"
 msgstr "(Anpassad)"
 
-#: ../src/main.c:305
+#: ../src/main.c:309
 msgid "(Edit custom)"
 msgstr "(Redigera anpassad)"
 
-#: ../src/main.c:306
+#: ../src/main.c:310
 msgid "(Default)"
 msgstr "(Standard)"
 
-#: ../src/main.c:383
+#: ../src/main.c:387
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -455,96 +455,96 @@ msgstr[1] "Dikteringsläge (beror på någon av dessa talsynteser: %s)"
 
 #. Set main labels (for translation)
 #.
-#: ../src/main.c:425 ../src/keyboard.c:1381
+#: ../src/main.c:429 ../src/keyboard.c:1385
 msgid "Introduction"
 msgstr "Introduktion"
 
-#: ../src/main.c:428 ../src/top10.c:110
+#: ../src/main.c:432 ../src/top10.c:114
 msgid "Basic course"
 msgstr "Grundkurs"
 
-#: ../src/main.c:431 ../src/top10.c:113
+#: ../src/main.c:435 ../src/top10.c:117
 msgid "Adaptability"
 msgstr "Anpassning"
 
-#: ../src/main.c:435 ../src/main.c:437 ../src/callbacks.c:1402
-#: ../src/top10.c:90 ../src/top10.c:116
+#: ../src/main.c:439 ../src/main.c:441 ../src/callbacks.c:1406
+#: ../src/top10.c:94 ../src/top10.c:120
 msgid "Speed"
 msgstr "Hastighet"
 
-#: ../src/main.c:440 ../src/callbacks.c:1425 ../src/top10.c:92
-#: ../src/top10.c:119
+#: ../src/main.c:444 ../src/callbacks.c:1429 ../src/top10.c:96
+#: ../src/top10.c:123
 msgid "Fluidity"
 msgstr "Skrivflöde"
 
-#: ../src/callbacks.c:481 ../src/tutor.c:543
+#: ../src/callbacks.c:485 ../src/tutor.c:547
 msgid "Keys:"
 msgstr "Tangenter:"
 
-#: ../src/callbacks.c:876 ../src/callbacks.c:892
+#: ../src/callbacks.c:880 ../src/callbacks.c:896
 msgid "Connecting..."
 msgstr "Kopplar upp..."
 
-#: ../src/callbacks.c:1165
+#: ../src/callbacks.c:1169
 msgid "Overwrite user layout"
 msgstr "Skriv över användarlayout"
 
-#: ../src/callbacks.c:1167
+#: ../src/callbacks.c:1171
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Detta kommer att SKRIVA ÖVER en existerande tangentbordslayout."
 
-#: ../src/callbacks.c:1174
+#: ../src/callbacks.c:1178
 msgid "Remove user layout"
 msgstr "Ta bort användarlayout"
 
-#: ../src/callbacks.c:1176
+#: ../src/callbacks.c:1180
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Detta kommer att TA BORT en existerande tangentbordslayout."
 
-#: ../src/callbacks.c:1183 ../src/callbacks.c:1188
+#: ../src/callbacks.c:1187 ../src/callbacks.c:1192
 msgid "Reset progress data"
 msgstr "Rensa framstegshistorik"
 
-#: ../src/callbacks.c:1184
+#: ../src/callbacks.c:1188
 msgid "This will DELETE all the progress data of all modules."
 msgstr "Detta kommer att RADERA all framstegshistorik för alla moduler."
 
-#: ../src/callbacks.c:1196
+#: ../src/callbacks.c:1200
 #, c-format
 msgid "This will delete the data of this chart. <%s>"
 msgstr "Detta kommer att radera all data för detta diagram. <%s>"
 
-#: ../src/callbacks.c:1199
+#: ../src/callbacks.c:1203
 #, c-format
 msgid "This will delete the progress data of the module. (%s)"
 msgstr "Rensa framstegshistoriken för modulen. (%s)"
 
-#: ../src/callbacks.c:1399 ../src/top10.c:88
+#: ../src/callbacks.c:1403 ../src/top10.c:92
 msgid "Accuracy"
 msgstr "Noggrannhet"
 
-#: ../src/callbacks.c:1402 ../src/tutor.c:1325
+#: ../src/callbacks.c:1406 ../src/tutor.c:1329
 msgid "(WPM)"
 msgstr "(WPM)"
 
-#: ../src/callbacks.c:1413
+#: ../src/callbacks.c:1417
 msgid "Errors"
 msgstr "Fel"
 
-#: ../src/callbacks.c:1416
+#: ../src/callbacks.c:1420
 msgid "Touch times (s)"
 msgstr "Hastighet (s)"
 
-#: ../src/callbacks.c:1428 ../src/tutor.c:1352 ../src/top10.c:70
+#: ../src/callbacks.c:1432 ../src/tutor.c:1356 ../src/top10.c:74
 msgid "Score"
 msgstr "Poäng"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:522 ../src/tutor.c:1758
+#: ../src/translation.c:526 ../src/tutor.c:1762
 msgid "en"
 msgstr "sv"
 
-#: ../src/translation.c:609
+#: ../src/translation.c:613
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -555,7 +555,7 @@ msgstr ""
 "ner motsvarande tangent. Kom ihåg den korrekta placeringen av fingrarna i "
 "startpositionen på tangentbordet (läs introduktionen på huvudmenyn)."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:617
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -565,7 +565,7 @@ msgstr ""
 "meddelanderaden. [Mellanslag], [Skift] och [Retur]-tangenterna kanske inte "
 "visas där men de används väldigt ofta."
 
-#: ../src/translation.c:616
+#: ../src/translation.c:620
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -574,7 +574,7 @@ msgstr ""
 "Om det krävs kommer raden att ändras och ge instruktioner om du behöver göra "
 "något."
 
-#: ../src/translation.c:620
+#: ../src/translation.c:624
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -583,7 +583,7 @@ msgstr ""
 "Här kan du öva och förbättra din inlärning av  tangenternas placering. Du "
 "kommer att få meningar med meningslösa ord blandat med siffror och symboler."
 
-#: ../src/translation.c:623
+#: ../src/translation.c:627
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -594,7 +594,7 @@ msgstr ""
 "verkliga ord skall du använda det fjärde valet från huvudmenyn (dvs. "
 "Skrivflöde)."
 
-#: ../src/translation.c:627
+#: ../src/translation.c:631
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -602,7 +602,7 @@ msgstr ""
 "Vid slutet av varje övning visas en liten ruta med statistik över din "
 "prestation samt relevanta kommentarer."
 
-#: ../src/translation.c:631
+#: ../src/translation.c:635
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -610,7 +610,7 @@ msgstr ""
 "Den här övningen liknar väldigt mycket den andra övningen, Anpassning. "
 "Skillnaden är att här får du skriva med riktiga ord."
 
-#: ../src/translation.c:634
+#: ../src/translation.c:638
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -620,7 +620,7 @@ msgstr ""
 "välja vilken annan text som helst med de ord som du skulle vilja använda. "
 "Välj  ”Andra texter”  ovan och lägg till filer som innehåller sådana texter."
 
-#: ../src/translation.c:638
+#: ../src/translation.c:642
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -628,7 +628,7 @@ msgstr ""
 "I den här övningen så har jag ögonen på hastigheten. Du förmodas skriva "
 "riktigt snabbt och jag kommer endast att smickra dig när du förtjänar det!"
 
-#: ../src/translation.c:642
+#: ../src/translation.c:646
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -640,7 +640,7 @@ msgstr ""
 "skriver ner. De föregående övningarna var inriktade på att få dig att skriva "
 "utan att tolka och analysera textinnehållet."
 
-#: ../src/translation.c:646
+#: ../src/translation.c:650
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -656,7 +656,7 @@ msgstr ""
 "skrivandet att vara en kamp längre. Du kommer då att kunna rikta "
 "uppmärksamheten på den verkliga meningen i texten."
 
-#: ../src/translation.c:650
+#: ../src/translation.c:654
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -668,7 +668,7 @@ msgstr ""
 "Här måste du använda backstegstangenten för att rätta till eventuella "
 "misstag. Med andra ord - endast felfria texter accepteras."
 
-#: ../src/keyboard.c:1181
+#: ../src/keyboard.c:1185
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -678,7 +678,7 @@ msgstr ""
 "placering av händer och fingrar. Du kommer att lära dig skriva snabbare och "
 "bättre om du följer kommande rekommendationer."
 
-#: ../src/keyboard.c:1184
+#: ../src/keyboard.c:1188
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -686,7 +686,7 @@ msgstr ""
 "Pekfingrarna vilar över de två tangenter som har en liten upphöjd markering "
 "i mitten på tangentbordet."
 
-#: ../src/keyboard.c:1187
+#: ../src/keyboard.c:1191
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -697,7 +697,7 @@ msgstr ""
 "erfarenhet behöver du inte längre titta på tangentbordet för att se att de "
 "är korrekt positionerade."
 
-#: ../src/keyboard.c:1191
+#: ../src/keyboard.c:1195
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -705,11 +705,11 @@ msgstr ""
 "Fingertopparna på de andra fingrarna ligger naturligt bredvid pekfingrarna "
 "samt över tangenterna på samma rad."
 
-#: ../src/keyboard.c:1194
+#: ../src/keyboard.c:1198
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "Sidorna på tummarna vilar över mellanslagstangenten."
 
-#: ../src/keyboard.c:1196
+#: ../src/keyboard.c:1200
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -718,7 +718,7 @@ msgstr ""
 "Den delen av händerna som är närmast handleden vilar mot bordet utanför "
 "tangentbordet. Utan detta stöd skulle armarna snabbt tröttna."
 
-#: ../src/keyboard.c:1199
+#: ../src/keyboard.c:1203
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -732,7 +732,7 @@ msgstr ""
 "mellan varje tangent och finger. Inlärningen av detta samband sker gradvis "
 "under grundkursen."
 
-#: ../src/keyboard.c:1205
+#: ../src/keyboard.c:1209
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -742,7 +742,7 @@ msgstr ""
 "att endast det berörda fingret rör sig mot just den tangenten. Behåll alla "
 "de andra fingrarna i sin ursprungliga position."
 
-#: ../src/keyboard.c:1209
+#: ../src/keyboard.c:1213
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -750,7 +750,7 @@ msgstr ""
 "Efter att ha lärt dig detta samband kan du lätta en smula på regeln så att "
 "det är möjligt att utveckla högre hastigheter för tangentbordsnedslag."
 
-#: ../src/keyboard.c:1212
+#: ../src/keyboard.c:1216
 msgid ""
 "The shift keys are used for capital letters and for some symbols. To get a "
 "shifted key input you should first use the small finger of the opposite "
@@ -761,7 +761,7 @@ msgstr ""
 "erhålla skift-inmatning använder du lillfingret på motsatt hand. Håll nere "
 "närmsta skift-tangent medan du trycker ned önskad tangent med andra handen."
 
-#: ../src/keyboard.c:1216
+#: ../src/keyboard.c:1220
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -771,74 +771,74 @@ msgstr ""
 "kräver vilja och tålamod att lära sig skriva korrekt! Vi litar på att du har "
 "detta och ser fram emot att se dig lyckas!"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1231
 #, c-format
 msgid "Step %i"
 msgstr "Steg %i"
 
 #. Recommendations
-#: ../src/keyboard.c:1231
+#: ../src/keyboard.c:1235
 msgid "To position the hands"
 msgstr "För att placera händerna"
 
 #. Final words
-#: ../src/keyboard.c:1314
+#: ../src/keyboard.c:1318
 msgid "Go ahead!"
 msgstr "Sätt igång!"
 
-#: ../src/keyboard.c:1322 ../src/keyboard.c:1324
+#: ../src/keyboard.c:1326 ../src/keyboard.c:1328
 msgid "Click on any key to see which finger you must use:"
 msgstr "Tryck på någon tangent för att se vilket finger du ska använda:"
 
-#: ../src/keyboard.c:1323
+#: ../src/keyboard.c:1327
 msgid "Relation between fingers and keys"
 msgstr "Förhållande mellan fingrar och tangenter"
 
-#: ../src/keyboard.c:1381 ../src/keyboard.c:1415
+#: ../src/keyboard.c:1385 ../src/keyboard.c:1419
 msgid "Keyboard"
 msgstr "Tangentbord"
 
-#: ../src/keyboard.c:1462
+#: ../src/keyboard.c:1466
 msgid "Create or modify a custom keyboard layout"
 msgstr "Skapa eller ändra en anpassad tangentbordslayout."
 
-#: ../src/keyboard.c:1710 ../src/keyboard.c:1734
+#: ../src/keyboard.c:1714 ../src/keyboard.c:1738
 msgid "small finger"
 msgstr "lillfingret"
 
-#: ../src/keyboard.c:1713 ../src/keyboard.c:1731
+#: ../src/keyboard.c:1717 ../src/keyboard.c:1735
 msgid "ring finger"
 msgstr "ringfingret"
 
-#: ../src/keyboard.c:1716 ../src/keyboard.c:1728
+#: ../src/keyboard.c:1720 ../src/keyboard.c:1732
 msgid "middle finger"
 msgstr "långfingret"
 
-#: ../src/keyboard.c:1719 ../src/keyboard.c:1725
+#: ../src/keyboard.c:1723 ../src/keyboard.c:1729
 msgid "index finger"
 msgstr "pekfingret"
 
-#: ../src/keyboard.c:1820
+#: ../src/keyboard.c:1824
 msgid "Press and edit me"
 msgstr "Tryck och redigera mig"
 
-#: ../src/tutor.c:321
+#: ../src/tutor.c:325
 msgid "Lesson:"
 msgstr "Lektion:"
 
-#: ../src/tutor.c:331
+#: ../src/tutor.c:335
 msgid "Paragraphs:"
 msgstr "Stycken:"
 
-#: ../src/tutor.c:364
+#: ../src/tutor.c:368
 msgid "Klavaro - Basic Course"
 msgstr "Klavaro - Grundkurs"
 
-#: ../src/tutor.c:369
+#: ../src/tutor.c:373
 msgid "Klavaro - Adaptability"
 msgstr "Klavaro - Anpassning"
 
-#: ../src/tutor.c:372
+#: ../src/tutor.c:376
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
@@ -846,43 +846,43 @@ msgstr ""
 "Anpassningsövningar: Automatisera fingerspetskänslan, skriv över hela "
 "tangentbordet."
 
-#: ../src/tutor.c:377
+#: ../src/tutor.c:381
 msgid "Klavaro - Velocity"
 msgstr "Klavaro - Hastighet"
 
-#: ../src/tutor.c:378
+#: ../src/tutor.c:382
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "Hastighetsövningar: Öka hastigheten i att skriva hela ord."
 
-#: ../src/tutor.c:382
+#: ../src/tutor.c:386
 msgid "Klavaro - Fluidness"
 msgstr "Klavaro - Skrivflöde"
 
-#: ../src/tutor.c:384
+#: ../src/tutor.c:388
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "Skrivflödesövningar: precision i att  skriva förnuftiga hela stycken."
 
-#: ../src/tutor.c:446
+#: ../src/tutor.c:450
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "Slut på övningen. Tryck [Retur] för att starta en ny."
 
-#: ../src/tutor.c:474
+#: ../src/tutor.c:478
 msgid "Learning the key positions."
 msgstr "Inlärning av tangenternas placeringar."
 
-#: ../src/tutor.c:477
+#: ../src/tutor.c:481
 msgid "Press any key to start the exercise. "
 msgstr "Tryck på någon tangent för att starta övningen. "
 
-#: ../src/tutor.c:605 ../src/tutor.c:608
+#: ../src/tutor.c:609 ../src/tutor.c:612
 msgid "Start typing when you are ready. "
 msgstr "När du är redo, börja skriv. "
 
-#: ../src/tutor.c:606
+#: ../src/tutor.c:610
 msgid "Use backspace to correct errors."
 msgstr "Använd backstegstangenten för att rätta fel."
 
-#: ../src/tutor.c:1053
+#: ../src/tutor.c:1057
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -891,11 +891,11 @@ msgstr ""
 "ps.:ingen loggning av denna session genomfördes: antalet skrivna tecken (%i) "
 "måste vara större än %i."
 
-#: ../src/tutor.c:1193
+#: ../src/tutor.c:1197
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "ps.:du har kommit med på Topp 10-listan, jättebra!"
 
-#: ../src/tutor.c:1207
+#: ../src/tutor.c:1211
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -905,98 +905,98 @@ msgstr ""
 "språk: vi kan inte lägga till det i ”Topp 10”-tävlingen."
 
 #. Begin the accuracy
-#: ../src/tutor.c:1252
+#: ../src/tutor.c:1256
 msgid "STATISTICS"
 msgstr "STATISTIK"
 
-#: ../src/tutor.c:1253
+#: ../src/tutor.c:1257
 msgid "Elapsed time:"
 msgstr "Förfluten tid:"
 
-#: ../src/tutor.c:1254
+#: ../src/tutor.c:1258
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "minut och"
 msgstr[1] "minuter och"
 
-#: ../src/tutor.c:1255
+#: ../src/tutor.c:1259
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekund"
 msgstr[1] "sekunder"
 
-#: ../src/tutor.c:1256
+#: ../src/tutor.c:1260
 msgid "Error ratio:"
 msgstr "Felratio:"
 
-#: ../src/tutor.c:1256
+#: ../src/tutor.c:1260
 msgid "Accuracy:"
 msgstr "Noggrannhet:"
 
-#: ../src/tutor.c:1277 ../src/tutor.c:1302 ../src/tutor.c:1325
-#: ../src/tutor.c:1351
+#: ../src/tutor.c:1281 ../src/tutor.c:1306 ../src/tutor.c:1329
+#: ../src/tutor.c:1355
 msgid "Goal:"
 msgstr "Mål:"
 
-#: ../src/tutor.c:1284
+#: ../src/tutor.c:1288
 msgid "Characters per second:"
 msgstr "Tecken per sekund:"
 
-#: ../src/tutor.c:1302
+#: ../src/tutor.c:1306
 msgid "(CPS)"
 msgstr "(CPS)"
 
-#: ../src/tutor.c:1307
+#: ../src/tutor.c:1311
 msgid "Words per minute:"
 msgstr "Ord per minut:"
 
-#: ../src/tutor.c:1332
+#: ../src/tutor.c:1336
 msgid "Fluidness:"
 msgstr "Skrivflöde:"
 
-#: ../src/tutor.c:1359
+#: ../src/tutor.c:1363
 msgid "Comments:"
 msgstr "Kommentarer:"
 
-#: ../src/tutor.c:1837
+#: ../src/tutor.c:1841
 msgid "space"
 msgstr "mellanrum"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1842
+#: ../src/tutor.c:1846
 msgid "wye"
 msgstr "Y"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1846
+#: ../src/tutor.c:1850
 msgid "enter"
 msgstr "returtangent"
 
-#: ../src/tutor.c:1852
+#: ../src/tutor.c:1856
 msgid "apostrophe"
 msgstr "apostrof"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1856
+#: ../src/tutor.c:1860
 msgid "quote"
 msgstr "citat"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1860
+#: ../src/tutor.c:1864
 msgid "ampersand"
 msgstr "och-tecken"
 
 #. Error frequencies or touch times
 #.
-#: ../src/plot.c:314
+#: ../src/plot.c:318
 msgid "Character"
 msgstr "Tecken"
 
-#: ../src/plot.c:326
+#: ../src/plot.c:330
 msgid "Date & Time"
 msgstr "Datum och tid"
 
-#: ../src/basic.c:273
+#: ../src/basic.c:277
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
@@ -1006,11 +1006,11 @@ msgstr ""
 "att skapa en personlig övning. Tryck ned redigera-knappen i övre högra "
 "hörnet."
 
-#: ../src/basic.c:372
+#: ../src/basic.c:376
 msgid "Positions of keys seems to be learned!"
 msgstr "Du verkar ha lärt dig tangenternas placering!"
 
-#: ../src/basic.c:373
+#: ../src/basic.c:377
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1022,7 +1022,7 @@ msgstr ""
 " Fortsätt nu med nästa typ av övning: anpassning.\n"
 " Där kommer du att huvudsakligen öva noggrannhet.\n"
 
-#: ../src/basic.c:379
+#: ../src/basic.c:383
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -1030,7 +1030,7 @@ msgstr ""
 " Helt riktigt, du har förstått!!\n"
 " Fortsätt nu med nästa lektion.\n"
 
-#: ../src/adaptability.c:247
+#: ../src/adaptability.c:251
 #, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
@@ -1039,7 +1039,7 @@ msgstr ""
 " Din noggrannhet är under %.0f%%…\n"
 " Kan du försöka att förbättra den?\n"
 
-#: ../src/adaptability.c:250
+#: ../src/adaptability.c:254
 #, c-format
 msgid ""
 " You are doing well. But...\n"
@@ -1048,7 +1048,7 @@ msgstr ""
 " Det går bra för dig. Men…\n"
 " Kan du försöka uppnå en noggrannhet på %.0f%%?\n"
 
-#: ../src/adaptability.c:253
+#: ../src/adaptability.c:257
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1059,7 +1059,7 @@ msgstr ""
 " Försök ytterligare några gånger. Börjar du att bli upprörd, prova en annan "
 "typ av övning.\n"
 
-#: ../src/adaptability.c:260
+#: ../src/adaptability.c:264
 #, c-format
 msgid ""
 " Very good!\n"
@@ -1072,11 +1072,11 @@ msgstr ""
 " Nu är det dags att öka din hastighet.\n"
 " Gå till den tredje övningen på huvudmenyn.\n"
 
-#: ../src/velocity.c:333 ../src/fluidness.c:436
+#: ../src/velocity.c:337 ../src/fluidness.c:440
 msgid "Pasted_or_dropped"
 msgstr "Inklistrad _eller _släppt"
 
-#: ../src/velocity.c:444
+#: ../src/velocity.c:448
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -1086,7 +1086,7 @@ msgstr ""
 " Var tålmodig, prova igen då och då, vila och oroa dig inte:\n"
 " Uthållighet och övning kommer att förbättra din hastighet.\n"
 
-#: ../src/velocity.c:448
+#: ../src/velocity.c:452
 #, c-format
 msgid ""
 " Still away from the highway. You can do better...\n"
@@ -1095,7 +1095,7 @@ msgstr ""
 " Fortfarande inte på motorvägen. Du kan bättre än så…\n"
 " Försök att nå åtminstone %.0f WPM.\n"
 
-#: ../src/velocity.c:451
+#: ../src/velocity.c:455
 #, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
@@ -1104,7 +1104,7 @@ msgstr ""
 " Det går bra för dig men du behöver bli ännu snabbare.\n"
 " Glöm inte bort noggrannheten. Försök att nå  %.0f WPM.\n"
 
-#: ../src/velocity.c:454
+#: ../src/velocity.c:458
 #, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
@@ -1113,7 +1113,7 @@ msgstr ""
 " Fint. Nu behöver du börja springa.\n"
 " Kan du försöka nå %.0f WPM?\n"
 
-#: ../src/velocity.c:457
+#: ../src/velocity.c:461
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -1122,7 +1122,7 @@ msgstr ""
 " Mycket bra. Du är nästan där.\n"
 " Kan du till slut nå %.0f WPM?\n"
 
-#: ../src/velocity.c:460
+#: ../src/velocity.c:464
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -1130,7 +1130,7 @@ msgstr ""
 " Utmärkt. Det är tillräckligt för den här kursen.\n"
 " Försök nu skrivflödesövningarna, okej?\n"
 
-#: ../src/velocity.c:463
+#: ../src/velocity.c:467
 #, c-format
 msgid ""
 " Fast! Are you a professional?\n"
@@ -1141,13 +1141,13 @@ msgstr ""
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
-#: ../src/velocity.c:468
+#: ../src/velocity.c:472
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr " Bra rankning fartkungen! Är du rädd för att nå %.0f WPM?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
-#: ../src/velocity.c:472
+#: ../src/velocity.c:476
 #, c-format
 msgid ""
 " Kung-fu mastery!\n"
@@ -1157,7 +1157,7 @@ msgstr ""
 " Kan du flyga vid %.0f WPM?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout. Feel free to change the speed mastery analogy.
-#: ../src/velocity.c:475
+#: ../src/velocity.c:479
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
@@ -1165,7 +1165,7 @@ msgstr ""
 " Dvorakmästare!\n"
 " Det finns inte nog ord för min beundran!\n"
 
-#: ../src/fluidness.c:539
+#: ../src/fluidness.c:543
 #, c-format
 msgid ""
 " You type accurately but not so fast.\n"
@@ -1174,7 +1174,7 @@ msgstr ""
 " Du skriver noggrant men inte så snabbt.\n"
 " Kan du nå %.0f WPM?\n"
 
-#: ../src/fluidness.c:542
+#: ../src/fluidness.c:546
 #, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
@@ -1183,7 +1183,7 @@ msgstr ""
 " Din rytm är inte så konstant. Ta det lugnt.\n"
 " Försök nu att nå en skrivflöde större än %i%%.\n"
 
-#: ../src/fluidness.c:545
+#: ../src/fluidness.c:549
 #, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
@@ -1192,7 +1192,7 @@ msgstr ""
 " Du är nästan framme. Skriv mer flytande.\n"
 " Jag vill ha ett skrivflöde större än %.0f%%.\n"
 
-#: ../src/fluidness.c:548
+#: ../src/fluidness.c:552
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -1204,7 +1204,7 @@ msgstr ""
 " Du behöver inte detta program (mig) längre.\n"
 " Hoppas du har haft det trevligt. Var glad, tack!\n"
 
-#: ../src/fluidness.c:553
+#: ../src/fluidness.c:557
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -1216,51 +1216,51 @@ msgstr ""
 " Är du en maskin? Kan du lära mig?\n"
 " Jag kan inte hjälpa dig längre. Gå till en expert!\n"
 
-#: ../src/top10.c:68
+#: ../src/top10.c:72
 msgid "Name"
 msgstr "Namn"
 
-#: ../src/top10.c:94
+#: ../src/top10.c:98
 msgid "Chars"
 msgstr "Tecken"
 
-#: ../src/top10.c:96
+#: ../src/top10.c:100
 msgid "When"
 msgstr "När"
 
-#: ../src/top10.c:125
+#: ../src/top10.c:129
 msgid "Local scores"
 msgstr "Lokala poäng"
 
-#: ../src/top10.c:126
+#: ../src/top10.c:130
 msgid "External scores"
 msgstr "Externa poäng"
 
-#: ../src/top10.c:713
+#: ../src/top10.c:717
 msgid "Empty ranking. Please practice fluidness."
 msgstr "Tom rankning. Vänligen öva på skrivflödet."
 
-#: ../src/top10.c:810
+#: ../src/top10.c:814
 msgid "Not able to download files"
 msgstr "Kan inte hämta filer"
 
-#: ../src/top10.c:810 ../src/top10.c:902
+#: ../src/top10.c:814 ../src/top10.c:906
 msgid "not found"
 msgstr "hittades ej"
 
-#: ../src/top10.c:811 ../src/top10.c:903
+#: ../src/top10.c:815 ../src/top10.c:907
 msgid "Are you sure you have it installed in your system?"
 msgstr "Är du säker på att det finns installerat i ditt system?"
 
-#: ../src/top10.c:857
+#: ../src/top10.c:861
 msgid "Could not download file from the host server."
 msgstr "Kunde inte hämta fil från värdserver."
 
-#: ../src/top10.c:902
+#: ../src/top10.c:906
 msgid "Not able to upload files"
 msgstr "Kan inte skicka upp filer"
 
-#: ../src/top10.c:989
+#: ../src/top10.c:993
 msgid "Could not upload/download scores."
 msgstr "Kunde inte skicka upp/hämta ner poäng."
 

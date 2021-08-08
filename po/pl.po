@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.05-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-04-17 21:56-0300\n"
+"POT-Creation-Date: 2021-06-06 14:05-0300\n"
 "PO-Revision-Date: 2019-02-15 22:12+0100\n"
 "Last-Translator: Tomasz Wojtyś <tsr84@o2.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -80,7 +80,7 @@ msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "Zmień zestaw znaków używanych po 43 lekcji: one są konfigurowalne!"
 
-#: ../data/klavaro.glade.h:17 ../src/tutor.c:397
+#: ../data/klavaro.glade.h:17 ../src/tutor.c:401
 msgid "Drag and drop text here to practice with it."
 msgstr "Przeciągnij i upuść tutaj tekst, aby z nim ćwiczyć."
 
@@ -252,7 +252,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "SPACJA"
 
-#: ../data/klavaro.glade.h:57 ../src/keyboard.c:1722
+#: ../data/klavaro.glade.h:57 ../src/keyboard.c:1726
 msgid "thumbs"
 msgstr "kciuki"
 
@@ -438,19 +438,19 @@ msgstr "Klavaro"
 msgid "A very flexible and efficient touch typing tutor."
 msgstr "Bardzo elastyczny i skuteczny nauczyciel pisania na klawiaturze."
 
-#: ../src/main.c:304
+#: ../src/main.c:308
 msgid "(Custom)"
 msgstr "(Własny)"
 
-#: ../src/main.c:305
+#: ../src/main.c:309
 msgid "(Edit custom)"
 msgstr "(Modyfikuj własny)"
 
-#: ../src/main.c:306
+#: ../src/main.c:310
 msgid "(Default)"
 msgstr "(Domyślny)"
 
-#: ../src/main.c:383
+#: ../src/main.c:387
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -460,97 +460,97 @@ msgstr[2] "Tryb dyktowania (zależy od tych syntezatorów mowy: %s)"
 
 #. Set main labels (for translation)
 #.
-#: ../src/main.c:425 ../src/keyboard.c:1381
+#: ../src/main.c:429 ../src/keyboard.c:1385
 msgid "Introduction"
 msgstr "Wstęp"
 
-#: ../src/main.c:428 ../src/top10.c:110
+#: ../src/main.c:432 ../src/top10.c:114
 msgid "Basic course"
 msgstr "Kurs podstawowy"
 
-#: ../src/main.c:431 ../src/top10.c:113
+#: ../src/main.c:435 ../src/top10.c:117
 msgid "Adaptability"
 msgstr "Adaptacja"
 
-#: ../src/main.c:435 ../src/main.c:437 ../src/callbacks.c:1402
-#: ../src/top10.c:90 ../src/top10.c:116
+#: ../src/main.c:439 ../src/main.c:441 ../src/callbacks.c:1406
+#: ../src/top10.c:94 ../src/top10.c:120
 msgid "Speed"
 msgstr "Szybkość"
 
-#: ../src/main.c:440 ../src/callbacks.c:1425 ../src/top10.c:92
-#: ../src/top10.c:119
+#: ../src/main.c:444 ../src/callbacks.c:1429 ../src/top10.c:96
+#: ../src/top10.c:123
 msgid "Fluidity"
 msgstr "Płynność"
 
-#: ../src/callbacks.c:481 ../src/tutor.c:543
+#: ../src/callbacks.c:485 ../src/tutor.c:547
 msgid "Keys:"
 msgstr "Klawisze:"
 
-#: ../src/callbacks.c:876 ../src/callbacks.c:892
+#: ../src/callbacks.c:880 ../src/callbacks.c:896
 msgid "Connecting..."
 msgstr "Łączenie..."
 
-#: ../src/callbacks.c:1165
+#: ../src/callbacks.c:1169
 msgid "Overwrite user layout"
 msgstr "Nadpisz układ użytkownika"
 
-#: ../src/callbacks.c:1167
+#: ../src/callbacks.c:1171
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "To NADPISZE istniejący układ klawiszy."
 
-#: ../src/callbacks.c:1174
+#: ../src/callbacks.c:1178
 msgid "Remove user layout"
 msgstr "Usuń układ użytkownika"
 
-#: ../src/callbacks.c:1176
+#: ../src/callbacks.c:1180
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "To USUNIE istniejący układ klawiszy."
 
-#: ../src/callbacks.c:1183 ../src/callbacks.c:1188
+#: ../src/callbacks.c:1187 ../src/callbacks.c:1192
 msgid "Reset progress data"
 msgstr "Usuń informacje o postępach"
 
-#: ../src/callbacks.c:1184
+#: ../src/callbacks.c:1188
 #, fuzzy
 msgid "This will DELETE all the progress data of all modules."
 msgstr "To USUNIE wszystkie informacje o postępach pokazywane na wykresach."
 
-#: ../src/callbacks.c:1196
+#: ../src/callbacks.c:1200
 #, fuzzy, c-format
 msgid "This will delete the data of this chart. <%s>"
 msgstr "To USUNIE wszystkie informacje o postępach pokazywane na wykresach."
 
-#: ../src/callbacks.c:1199
+#: ../src/callbacks.c:1203
 #, fuzzy, c-format
 msgid "This will delete the progress data of the module. (%s)"
 msgstr "Usuń informacje o postępach, w każdym module. (%s)"
 
-#: ../src/callbacks.c:1399 ../src/top10.c:88
+#: ../src/callbacks.c:1403 ../src/top10.c:92
 msgid "Accuracy"
 msgstr "Dokładność"
 
-#: ../src/callbacks.c:1402 ../src/tutor.c:1325
+#: ../src/callbacks.c:1406 ../src/tutor.c:1329
 msgid "(WPM)"
 msgstr "(SNM)"
 
-#: ../src/callbacks.c:1413
+#: ../src/callbacks.c:1417
 msgid "Errors"
 msgstr "Błędy"
 
-#: ../src/callbacks.c:1416
+#: ../src/callbacks.c:1420
 msgid "Touch times (s)"
 msgstr "Czasy pisania (s)"
 
-#: ../src/callbacks.c:1428 ../src/tutor.c:1352 ../src/top10.c:70
+#: ../src/callbacks.c:1432 ../src/tutor.c:1356 ../src/top10.c:74
 msgid "Score"
 msgstr "Wynik"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:522 ../src/tutor.c:1758
+#: ../src/translation.c:526 ../src/tutor.c:1762
 msgid "en"
 msgstr "pl"
 
-#: ../src/translation.c:609
+#: ../src/translation.c:613
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -561,7 +561,7 @@ msgstr ""
 "by utrzymywać poprawnie ułożone dłonie na wierszu podstawowym klawiatury  "
 "(zobacz wstęp w menu głównym)."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:617
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -571,7 +571,7 @@ msgstr ""
 "wiadomości. Klawisze [Spacja], [Shift] i [Enter] mogą się tam nie pojawić, "
 "choć są używane bardzo często."
 
-#: ../src/translation.c:616
+#: ../src/translation.c:620
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -579,7 +579,7 @@ msgstr ""
 "Linia wiadomości poniżej śledzi i wypisuje twoje naciśnięcia klawiszy. "
 "Zależnie od kontekstu wyświetla również instrukcje postępowania."
 
-#: ../src/translation.c:620
+#: ../src/translation.c:624
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -589,7 +589,7 @@ msgstr ""
 "Zobaczysz zdania ułożone z bezsensownych słów, z wtrąconymi cyframi i "
 "symbolami."
 
-#: ../src/translation.c:623
+#: ../src/translation.c:627
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -600,7 +600,7 @@ msgstr ""
 "wpisywanie prawdziwych słów, użyj czwartej opcji menu głównego (płynność)."
 
 # Coders: Remove panel
-#: ../src/translation.c:627
+#: ../src/translation.c:631
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -608,7 +608,7 @@ msgstr ""
 "Po każdym ćwiczeniu pokazane zostaną krótkie statystyki kontrolujące twoje "
 "wyniki razem z pewnymi istotnymi uwagami."
 
-#: ../src/translation.c:631
+#: ../src/translation.c:635
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -616,7 +616,7 @@ msgstr ""
 "To ćwiczenie jest bardzo podobne do drugiego, czyli adaptacji. Różnica "
 "polega na tym, że będziesz wpisywał prawdziwe słowa."
 
-#: ../src/translation.c:634
+#: ../src/translation.c:638
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -626,7 +626,7 @@ msgstr ""
 "teksty ze słowami, których chciałbyś używać. Wciśnij przycisk 'Inne' powyżej "
 "i dodaj pliki zawierające te teksty."
 
-#: ../src/translation.c:638
+#: ../src/translation.c:642
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -634,7 +634,7 @@ msgstr ""
 "W tym ćwiczeniu nacisk kładziony jest na twoją szybkość. Dlatego powinieneś "
 "pisać naprawdę szybko. Zostaniesz pochwalony tylko, gdy na to zasłużysz!"
 
-#: ../src/translation.c:642
+#: ../src/translation.c:646
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -646,7 +646,7 @@ msgstr ""
 "Poprzednie ćwiczenia były skierowanie na pisanie bez interpretacji i analizy "
 "treści."
 
-#: ../src/translation.c:646
+#: ../src/translation.c:650
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -661,7 +661,7 @@ msgstr ""
 "tego celu, pisanie stanie się automatyczne i nie będzie wymagało specjalnego "
 "wysiłku. Będziesz wtedy zdolny zwracać uwagę na prawdziwe znaczenie tekstu."
 
-#: ../src/translation.c:650
+#: ../src/translation.c:654
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -673,7 +673,7 @@ msgstr ""
 "Należy tutaj używać klawisza backspace do poprawiania wszelkich błędów. "
 "Innymi słowy, jedynie bezbłędnie napisany tekst zostanie zaakceptowany."
 
-#: ../src/keyboard.c:1181
+#: ../src/keyboard.c:1185
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -683,7 +683,7 @@ msgstr ""
 "na klawiaturze. Nauczysz się szybciej i będziesz lepiej pisał jeżeli "
 "postąpisz według następnych zaleceń."
 
-#: ../src/keyboard.c:1184
+#: ../src/keyboard.c:1188
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -691,7 +691,7 @@ msgstr ""
 "Koniuszki palców wskazujących spoczywają nad dwoma klawiszami, które mają na "
 "sobie małe wypustki, na środku klawiatury."
 
-#: ../src/keyboard.c:1187
+#: ../src/keyboard.c:1191
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -701,7 +701,7 @@ msgstr ""
 "prawidłowej pozycji. W ten sposób, nie będziesz musiał spoglądać na "
 "klawiaturę by zobaczyć czy twoje palce są poprawnie ułożone."
 
-#: ../src/keyboard.c:1191
+#: ../src/keyboard.c:1195
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -710,11 +710,11 @@ msgstr ""
 "klawiszach z tego samego rzędu klawiatury."
 
 # Coders: Change "edges"
-#: ../src/keyboard.c:1194
+#: ../src/keyboard.c:1198
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "Zewnętrzne krawędzie twoich kciuków spoczywają na spacji."
 
-#: ../src/keyboard.c:1196
+#: ../src/keyboard.c:1200
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -723,7 +723,7 @@ msgstr ""
 "Części dłoni najbliżej nadgarstka (baza) opierają się na stole, poza "
 "klawiaturą. Bez takiego podparcia ręce bardzo szybko by się zmęczyły."
 
-#: ../src/keyboard.c:1199
+#: ../src/keyboard.c:1203
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -737,7 +737,7 @@ msgstr ""
 "konkretnemu palcowi, którym może być wciskany. Nauczysz się tych powiązań "
 "stopniowo, podczas kursu podstawowego."
 
-#: ../src/keyboard.c:1205
+#: ../src/keyboard.c:1209
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -747,7 +747,7 @@ msgstr ""
 "tylko tym palcem, którym musisz nacisnąć klawisz i pozwolenie innym palcom "
 "pozostać w pozycji początkowej."
 
-#: ../src/keyboard.c:1209
+#: ../src/keyboard.c:1213
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -755,7 +755,7 @@ msgstr ""
 "Po zapamiętaniu powiązań, możesz stosować powyższą zasadę mniej ściśle, aby "
 "osiągnąć większą szybkość pisania."
 
-#: ../src/keyboard.c:1212
+#: ../src/keyboard.c:1216
 msgid ""
 "The shift keys are used for capital letters and for some symbols. To get a "
 "shifted key input you should first use the small finger of the opposite "
@@ -766,7 +766,7 @@ msgstr ""
 "symboli. Żeby wpisać wielką literę użyj małego palca i przytrzymaj nim "
 "SHIFT, a drugą ręką wciśnij właściwą literę."
 
-#: ../src/keyboard.c:1216
+#: ../src/keyboard.c:1220
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -776,75 +776,75 @@ msgstr ""
 "osoba pisząca na klawiaturze wymagany jest wysiłek i cierpliwość. Wierzymy w "
 "Ciebie!"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1231
 #, c-format
 msgid "Step %i"
 msgstr "Krok %i"
 
 # Coders: I would like to know the context.
 #. Recommendations
-#: ../src/keyboard.c:1231
+#: ../src/keyboard.c:1235
 msgid "To position the hands"
 msgstr "By ustawić dłonie"
 
 #. Final words
-#: ../src/keyboard.c:1314
+#: ../src/keyboard.c:1318
 msgid "Go ahead!"
 msgstr "Idź dalej!"
 
-#: ../src/keyboard.c:1322 ../src/keyboard.c:1324
+#: ../src/keyboard.c:1326 ../src/keyboard.c:1328
 msgid "Click on any key to see which finger you must use:"
 msgstr "Kliknij na dowolnym klawiszu aby zobaczyć którego palca użyć:"
 
-#: ../src/keyboard.c:1323
+#: ../src/keyboard.c:1327
 msgid "Relation between fingers and keys"
 msgstr "Powiązania klawiszy z palcami"
 
-#: ../src/keyboard.c:1381 ../src/keyboard.c:1415
+#: ../src/keyboard.c:1385 ../src/keyboard.c:1419
 msgid "Keyboard"
 msgstr "Klawiatura"
 
-#: ../src/keyboard.c:1462
+#: ../src/keyboard.c:1466
 msgid "Create or modify a custom keyboard layout"
 msgstr "Utwórz lub modyfikuj własny układ klawiatury"
 
-#: ../src/keyboard.c:1710 ../src/keyboard.c:1734
+#: ../src/keyboard.c:1714 ../src/keyboard.c:1738
 msgid "small finger"
 msgstr "mały palec"
 
-#: ../src/keyboard.c:1713 ../src/keyboard.c:1731
+#: ../src/keyboard.c:1717 ../src/keyboard.c:1735
 msgid "ring finger"
 msgstr "palec serdeczny"
 
-#: ../src/keyboard.c:1716 ../src/keyboard.c:1728
+#: ../src/keyboard.c:1720 ../src/keyboard.c:1732
 msgid "middle finger"
 msgstr "palec środkowy"
 
-#: ../src/keyboard.c:1719 ../src/keyboard.c:1725
+#: ../src/keyboard.c:1723 ../src/keyboard.c:1729
 msgid "index finger"
 msgstr "palec wskazujący"
 
-#: ../src/keyboard.c:1820
+#: ../src/keyboard.c:1824
 msgid "Press and edit me"
 msgstr "Naciśnij mnie i modyfikuj"
 
-#: ../src/tutor.c:321
+#: ../src/tutor.c:325
 msgid "Lesson:"
 msgstr "Lekcja:"
 
-#: ../src/tutor.c:331
+#: ../src/tutor.c:335
 msgid "Paragraphs:"
 msgstr "Akapitów:"
 
-#: ../src/tutor.c:364
+#: ../src/tutor.c:368
 msgid "Klavaro - Basic Course"
 msgstr "Klavaro - Kurs Podstawowy"
 
-#: ../src/tutor.c:369
+#: ../src/tutor.c:373
 msgid "Klavaro - Adaptability"
 msgstr "Klavaro - Adaptacja"
 
-#: ../src/tutor.c:372
+#: ../src/tutor.c:376
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
@@ -852,43 +852,43 @@ msgstr ""
 "Ćwiczenia z adaptacji: automatyzowanie reakcji palców, pisanie po całej "
 "klawiaturze."
 
-#: ../src/tutor.c:377
+#: ../src/tutor.c:381
 msgid "Klavaro - Velocity"
 msgstr "Klavaro - Szybkość"
 
-#: ../src/tutor.c:378
+#: ../src/tutor.c:382
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "Ćwiczenia szybkości: przyspiesz pisanie prawdziwych słów."
 
-#: ../src/tutor.c:382
+#: ../src/tutor.c:386
 msgid "Klavaro - Fluidness"
 msgstr "Klavaro - Płynność"
 
-#: ../src/tutor.c:384
+#: ../src/tutor.c:388
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "Ćwiczenia płynności: dokładne wpisywanie sensownych akapitów."
 
-#: ../src/tutor.c:446
+#: ../src/tutor.c:450
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "Koniec ćwiczenia. Naciśnij [Enter] by zacząć następne."
 
-#: ../src/tutor.c:474
+#: ../src/tutor.c:478
 msgid "Learning the key positions."
 msgstr "Uczenie się położenia klawiszy."
 
-#: ../src/tutor.c:477
+#: ../src/tutor.c:481
 msgid "Press any key to start the exercise. "
 msgstr "Naciśnij dowolny klawisz, aby rozpocząć ćwiczenie. "
 
-#: ../src/tutor.c:605 ../src/tutor.c:608
+#: ../src/tutor.c:609 ../src/tutor.c:612
 msgid "Start typing when you are ready. "
 msgstr "Zacznij pisać, kiedy będziesz gotowy. "
 
-#: ../src/tutor.c:606
+#: ../src/tutor.c:610
 msgid "Use backspace to correct errors."
 msgstr "Użyj backspace, by poprawić błędy."
 
-#: ../src/tutor.c:1053
+#: ../src/tutor.c:1057
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -897,11 +897,11 @@ msgstr ""
 "PS: logowanie nie zostało wykonane w tej sesji: liczba wpisanych znaków (%i) "
 "musi być większa niż %i."
 
-#: ../src/tutor.c:1193
+#: ../src/tutor.c:1197
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "PS: jesteś na liście dziesięciu najlepszych, świetnie!"
 
-#: ../src/tutor.c:1207
+#: ../src/tutor.c:1211
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -911,100 +911,100 @@ msgstr ""
 "aktualnie wybranym języku: nie możemy go zaliczyć do konkursu 'Najlepsza 10'."
 
 #. Begin the accuracy
-#: ../src/tutor.c:1252
+#: ../src/tutor.c:1256
 msgid "STATISTICS"
 msgstr "STATYSTYKI"
 
-#: ../src/tutor.c:1253
+#: ../src/tutor.c:1257
 msgid "Elapsed time:"
 msgstr "Czas trwania:"
 
-#: ../src/tutor.c:1254
+#: ../src/tutor.c:1258
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "minuta i"
 msgstr[1] "minuty i"
 msgstr[2] "minut i"
 
-#: ../src/tutor.c:1255
+#: ../src/tutor.c:1259
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekunda"
 msgstr[1] "sekundy"
 msgstr[2] "sekund"
 
-#: ../src/tutor.c:1256
+#: ../src/tutor.c:1260
 msgid "Error ratio:"
 msgstr "Współczynnik błędów:"
 
-#: ../src/tutor.c:1256
+#: ../src/tutor.c:1260
 msgid "Accuracy:"
 msgstr "Dokładność:"
 
-#: ../src/tutor.c:1277 ../src/tutor.c:1302 ../src/tutor.c:1325
-#: ../src/tutor.c:1351
+#: ../src/tutor.c:1281 ../src/tutor.c:1306 ../src/tutor.c:1329
+#: ../src/tutor.c:1355
 msgid "Goal:"
 msgstr "Cel:"
 
-#: ../src/tutor.c:1284
+#: ../src/tutor.c:1288
 msgid "Characters per second:"
 msgstr "Znaki na sekundę:"
 
-#: ../src/tutor.c:1302
+#: ../src/tutor.c:1306
 msgid "(CPS)"
 msgstr "(ZNS)"
 
-#: ../src/tutor.c:1307
+#: ../src/tutor.c:1311
 msgid "Words per minute:"
 msgstr "Słów na minutę:"
 
-#: ../src/tutor.c:1332
+#: ../src/tutor.c:1336
 msgid "Fluidness:"
 msgstr "Płynność:"
 
-#: ../src/tutor.c:1359
+#: ../src/tutor.c:1363
 msgid "Comments:"
 msgstr "Uwagi:"
 
-#: ../src/tutor.c:1837
+#: ../src/tutor.c:1841
 msgid "space"
 msgstr "spacja"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1842
+#: ../src/tutor.c:1846
 msgid "wye"
 msgstr "igrek"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1846
+#: ../src/tutor.c:1850
 msgid "enter"
 msgstr "enter"
 
-#: ../src/tutor.c:1852
+#: ../src/tutor.c:1856
 msgid "apostrophe"
 msgstr "apostrof"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1856
+#: ../src/tutor.c:1860
 msgid "quote"
 msgstr "cudzysłów"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1860
+#: ../src/tutor.c:1864
 msgid "ampersand"
 msgstr "znak „and”"
 
 #. Error frequencies or touch times
 #.
-#: ../src/plot.c:314
+#: ../src/plot.c:318
 msgid "Character"
 msgstr "Znak"
 
-#: ../src/plot.c:326
+#: ../src/plot.c:330
 msgid "Date & Time"
 msgstr "Data i czas"
 
-#: ../src/basic.c:273
+#: ../src/basic.c:277
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
@@ -1013,11 +1013,11 @@ msgstr ""
 "Ta własna lekcja jest pusta. Możesz wybrać dwa lub więcej znaków aby "
 "wygenerować ćwiczenie. Naciśniej przycisk zmiany w prawym-górnym rogu."
 
-#: ../src/basic.c:372
+#: ../src/basic.c:376
 msgid "Positions of keys seems to be learned!"
 msgstr "Położenie klawiszy wygląda na opanowane!"
 
-#: ../src/basic.c:373
+#: ../src/basic.c:377
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1028,7 +1028,7 @@ msgstr ""
 " Pora przejść do następnego typu ćwiczeń: adaptacja.\n"
 " Będzie tam ćwiczona głównie dokładność.\n"
 
-#: ../src/basic.c:379
+#: ../src/basic.c:383
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -1036,7 +1036,7 @@ msgstr ""
 " Dobrze, chyba załapałeś!\n"
 " Przejdź do następnej lekcji.\n"
 
-#: ../src/adaptability.c:247
+#: ../src/adaptability.c:251
 #, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
@@ -1045,7 +1045,7 @@ msgstr ""
 " Twój wskaźnik dokładności jest poniżej %.0f%%...\n"
 " Spróbujesz jeszcze raz żeby go polepszyć?\n"
 
-#: ../src/adaptability.c:250
+#: ../src/adaptability.c:254
 #, c-format
 msgid ""
 " You are doing well. But...\n"
@@ -1054,7 +1054,7 @@ msgstr ""
 " Idzie Ci nieźle, ale...\n"
 " Czy jesteś w stanie osiągnąć dokładność %.0f%%?\n"
 
-#: ../src/adaptability.c:253
+#: ../src/adaptability.c:257
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1066,7 +1066,7 @@ msgstr ""
 " Spróbuj jeszcze kilka razy, a jeśli masz już dość to przejdź do innego "
 "ćwiczenia.\n"
 
-#: ../src/adaptability.c:260
+#: ../src/adaptability.c:264
 #, c-format
 msgid ""
 " Very good!\n"
@@ -1079,11 +1079,11 @@ msgstr ""
 " Czas teraz popracować nad szybkością.\n"
 " Przejdź do trzeciego ćwiczenia w menu głównym\n"
 
-#: ../src/velocity.c:333 ../src/fluidness.c:436
+#: ../src/velocity.c:337 ../src/fluidness.c:440
 msgid "Pasted_or_dropped"
 msgstr "Wklejone_lub_upuszczone"
 
-#: ../src/velocity.c:444
+#: ../src/velocity.c:448
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -1094,7 +1094,7 @@ msgstr ""
 "wiele:\n"
 " wytrwałość i praktyka zwiększą twoją szybkość.\n"
 
-#: ../src/velocity.c:448
+#: ../src/velocity.c:452
 #, c-format
 msgid ""
 " Still away from the highway. You can do better...\n"
@@ -1103,7 +1103,7 @@ msgstr ""
 " Ciągle daleko do autostrady. Stać cię na więcej...\n"
 " Spróbuj osiągnąć przynajmniej %.0f SNM.\n"
 
-#: ../src/velocity.c:451
+#: ../src/velocity.c:455
 #, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
@@ -1112,7 +1112,7 @@ msgstr ""
 " Nieźle sobie radzisz, ale musisz pisać szybciej.\n"
 " I nie zapominaj o dokładności. Spróbuj osiągnąć %.0f SNM.\n"
 
-#: ../src/velocity.c:454
+#: ../src/velocity.c:458
 #, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
@@ -1121,7 +1121,7 @@ msgstr ""
 " Dobrze. Teraz musisz zacząć biec.\n"
 " Potrafisz osiągnąć %.0f SNM?\n"
 
-#: ../src/velocity.c:457
+#: ../src/velocity.c:461
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -1130,7 +1130,7 @@ msgstr ""
 " Bardzo dobrze. Niewiele ci brakuje.\n"
 " Czy możesz w końcu dojść do %.0f SNM?\n"
 
-#: ../src/velocity.c:460
+#: ../src/velocity.c:464
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -1138,7 +1138,7 @@ msgstr ""
 " Świetnie. Jak na ten kurs, to wystarczy.\n"
 " Teraz spróbuj ćwiczeń płynności.\n"
 
-#: ../src/velocity.c:463
+#: ../src/velocity.c:467
 #, c-format
 msgid ""
 " Fast! Are you a professional?\n"
@@ -1149,13 +1149,13 @@ msgstr ""
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
-#: ../src/velocity.c:468
+#: ../src/velocity.c:472
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr " Niezły wynik wyścigowcu! Boisz się osiągnąć %.0f SNM?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
-#: ../src/velocity.c:472
+#: ../src/velocity.c:476
 #, c-format
 msgid ""
 " Kung-fu mastery!\n"
@@ -1165,7 +1165,7 @@ msgstr ""
 " Czy potrafisz latać z prędkością %.0f SNM?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout. Feel free to change the speed mastery analogy.
-#: ../src/velocity.c:475
+#: ../src/velocity.c:479
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
@@ -1173,7 +1173,7 @@ msgstr ""
 " Mistrz Dvoraka!\n"
 " Brak mi słów, aby wyrazić mój podziw!\n"
 
-#: ../src/fluidness.c:539
+#: ../src/fluidness.c:543
 #, c-format
 msgid ""
 " You type accurately but not so fast.\n"
@@ -1182,7 +1182,7 @@ msgstr ""
 " Umiesz pisać dokładnie, ale nie za szybko.\n"
 " Czy potrafisz osiągnąć %.0f SNM?\n"
 
-#: ../src/fluidness.c:542
+#: ../src/fluidness.c:546
 #, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
@@ -1191,7 +1191,7 @@ msgstr ""
 " Twój rytm jest niejednostajny. Uspokuj się.\n"
 " Na razie spróbuj osiągnąć płynność większą niż %i%%.\n"
 
-#: ../src/fluidness.c:545
+#: ../src/fluidness.c:549
 #, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
@@ -1200,7 +1200,7 @@ msgstr ""
 " Prawie ci się udało. Pisz płynniej.\n"
 " Wymagam płynności większej niż %.0f%%.\n"
 
-#: ../src/fluidness.c:548
+#: ../src/fluidness.c:552
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -1212,7 +1212,7 @@ msgstr ""
 " Nie potrzebujesz więcej tego programu (mnie).\n"
 " Dobrze się bawiłeś? Dzięki i bądź szczęśliwy!\n"
 
-#: ../src/fluidness.c:553
+#: ../src/fluidness.c:557
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -1224,51 +1224,51 @@ msgstr ""
 " Jesteś maszyną? Mógłbyś mnie nauczyć?\n"
 " Nie mogę ci już pomóc. Idź do eksperta!\n"
 
-#: ../src/top10.c:68
+#: ../src/top10.c:72
 msgid "Name"
 msgstr "Imię"
 
-#: ../src/top10.c:94
+#: ../src/top10.c:98
 msgid "Chars"
 msgstr "Znaki"
 
-#: ../src/top10.c:96
+#: ../src/top10.c:100
 msgid "When"
 msgstr "Kiedy"
 
-#: ../src/top10.c:125
+#: ../src/top10.c:129
 msgid "Local scores"
 msgstr "Wyniki lokalne"
 
-#: ../src/top10.c:126
+#: ../src/top10.c:130
 msgid "External scores"
 msgstr "Wyniki zewnętrzne"
 
-#: ../src/top10.c:713
+#: ../src/top10.c:717
 msgid "Empty ranking. Please practice fluidness."
 msgstr "Pusty ranking. Proszę poćwicz płynność."
 
-#: ../src/top10.c:810
+#: ../src/top10.c:814
 msgid "Not able to download files"
 msgstr "Nie można pobrać plików"
 
-#: ../src/top10.c:810 ../src/top10.c:902
+#: ../src/top10.c:814 ../src/top10.c:906
 msgid "not found"
 msgstr "nie znaleziono"
 
-#: ../src/top10.c:811 ../src/top10.c:903
+#: ../src/top10.c:815 ../src/top10.c:907
 msgid "Are you sure you have it installed in your system?"
 msgstr "Na pewno masz to zainstalowane w swoim systemie?"
 
-#: ../src/top10.c:857
+#: ../src/top10.c:861
 msgid "Could not download file from the host server."
 msgstr "Nie można pobrać pliku z serwera."
 
-#: ../src/top10.c:902
+#: ../src/top10.c:906
 msgid "Not able to upload files"
 msgstr "Nie można wysłać plików"
 
-#: ../src/top10.c:989
+#: ../src/top10.c:993
 msgid "Could not upload/download scores."
 msgstr "Nie można wysłać/pobrać wyników."
 

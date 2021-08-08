@@ -37,6 +37,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
     <property name="page-increment">5</property>
   </object>
   <object class="GtkAdjustment" id="adjustment_stat_lesson">
+    <property name="lower">1</property>
     <property name="upper">256</property>
     <property name="value">1</property>
     <property name="step-increment">1</property>
@@ -3332,7 +3333,7 @@ along with Klavaro.  If not, see <http://www.gnu.org/licenses/>.
     <property name="comments" translatable="yes">Yet another touch typing tutor</property>
     <property name="website">https://klavaro.sourceforge.io/</property>
     <property name="website-label">klavaro.sourceforge.io</property>
-    <property name="authors">- Felipe Castro - &lt;fe20@penso.eu.nom.br&gt;
+    <property name="authors">- Felipe Castro - &lt;fefcas.at.gmail.com&gt;
 - Petr Machata
 - Hodong Kim</property>
     <property name="translator-credits">- &lt;a href="http://translationproject.org/domain/klavaro.html"&gt;The Translation Project&lt;/a&gt;</property>
