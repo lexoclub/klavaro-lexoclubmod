@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 3.05-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2021-10-24 11:57-0300\n"
 "PO-Revision-Date: 2019-11-23 23:16+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs@fsf.hu>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
@@ -996,7 +996,7 @@ msgstr "Karakter"
 msgid "Date & Time"
 msgstr "Dátum és idő"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
@@ -1006,11 +1006,11 @@ msgstr ""
 "egy személyes gyakorlás előállításához. Nyomja meg a jobb felső sarokban "
 "lévő szerkesztőgombot."
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "Úgy tűnik, megtanultad a billentyűk elhelyezkedését!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1022,7 +1022,7 @@ msgstr ""
 " Folytasd a készségfejlesztő gyakorlatokkal.\n"
 " Azzal leginkább a pontosságod fogod javítani.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

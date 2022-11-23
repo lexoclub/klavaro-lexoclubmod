@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.1.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2021-10-24 11:57-0300\n"
 "PO-Revision-Date: 2008-11-05 16:51+0600\n"
 "Last-Translator: Md. Rezwan Shahid <rafi6047@yahoo.com>\n"
 "Language-Team: Bangla/Bengali <l10n@ankur.org.bd>\n"
@@ -1040,18 +1040,18 @@ msgstr ""
 msgid "Date & Time"
 msgstr ""
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
 "right corner."
 msgstr ""
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "মনে হচ্ছে কী(key) গুলোর অবস্থান শেখা হয়ে গেছে!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1063,7 +1063,7 @@ msgstr ""
 " পরবর্তী ধরনের অনুশীলনে যান: মানিয়ে নেয়া।\n"
 " সেখানে আপনি প্রধানত নির্ভুলতা অনুশীলনে করবেন।\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

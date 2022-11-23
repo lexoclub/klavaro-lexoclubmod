@@ -2,6 +2,7 @@ TODO or not TODO
 ____________________________________________________________
 Simple list of things that could be done in future releases:
 
+- Highlight used keys of basic exercises when showing the virtual keyboard.
 - Announcement when a new personal best has been achieved for speed, or how far below (%) from personal best.
 - Log detailed stats and save it before exitting (practices, achievements, etc).
 - New graph joining accuracy and speed for correlation.

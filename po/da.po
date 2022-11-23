@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.05-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2021-10-24 11:57-0300\n"
 "PO-Revision-Date: 2019-02-14 16:07+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -1008,7 +1008,7 @@ msgstr "Tegn"
 msgid "Date & Time"
 msgstr "Dato & tid"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
@@ -1018,11 +1018,11 @@ msgstr ""
 "for at oprette en personlig træning. Tryk på redigeringsknappen i øvre højre "
 "hjørne."
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "Tasternes placering ser ud til at været lært!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1034,7 +1034,7 @@ msgstr ""
 " Gå til den næste type af øvelser: Tilpasningsevne.\n"
 " Der vil du hovedsagelig træne præcisionen.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

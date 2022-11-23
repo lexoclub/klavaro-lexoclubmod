@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.01-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2021-10-24 11:57-0300\n"
 "PO-Revision-Date: 2014-09-09 16:59+0530\n"
 "Last-Translator: Gursharnjit Singh <ubuntuser13@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-l10n@lists.sourceforge.net>\n"
@@ -970,18 +970,18 @@ msgstr "ਅੱਖਰ"
 msgid "Date & Time"
 msgstr "ਤਾਰੀਖ ਅਤੇ ਸਮਾਂ"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
 "right corner."
 msgstr ""
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "ਕੁੰਜੀਆਂ ਦੇ ਅਹੁਦੇ ਸਿੱਖੇ ਹੋਏ ਪ੍ਰਤੀਤ ਹੁੰਦੇ ਹਨ!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -993,7 +993,7 @@ msgstr ""
 " ਅਗਲੇ ਕਿਸਮ ਦੇ ਅਭਿਆਸ ਤੇ ਜਾਓ: ਅਨੁਕੂਲਤਾ।\n"
 " ਇੱਥੇ ਤੁਸੀ ਮੂਲ ਰੂਪ ਵਿੱਚ ਖਰੇਪਨ ਦਾ ਅਭਿਆਸ ਕਰੋਗੇ।\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

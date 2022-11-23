@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.10\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2021-10-24 11:57-0300\n"
 "PO-Revision-Date: 2020-08-04 10:04+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
@@ -994,7 +994,7 @@ msgstr "Знак"
 msgid "Date & Time"
 msgstr "Датум и време"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
@@ -1004,11 +1004,11 @@ msgstr ""
 "знака за стварање личне вежбе. Притисните дугме уређивања у горњем десном "
 "углу."
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "Изгледа да сте научили положај тастера!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1020,7 +1020,7 @@ msgstr ""
 " Идите на следећу врсту вежбе: прилагодљивост.\n"
 " У њој ћете вежбати углавном тачност.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

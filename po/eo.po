@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.10\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2021-10-24 11:57-0300\n"
 "PO-Revision-Date: 2020-06-01 14:59-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
@@ -991,7 +991,7 @@ msgstr "Signaĵo"
 msgid "Date & Time"
 msgstr "Dato kaj Horo"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
@@ -1001,11 +1001,11 @@ msgstr ""
 "por krei propran treinon. Premu la redaktan butonon en la dekstra supra "
 "angulo."
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "La dispozicio de la klavoj ŝajnas esti parkerita!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1017,7 +1017,7 @@ msgstr ""
 " Iru al la sekva tipo de ekzerco: adapteco.\n"
 " Tie vi praktikos precipe pri korekteco.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

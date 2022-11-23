@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.05-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2021-06-06 14:05-0300\n"
+"POT-Creation-Date: 2021-10-24 11:57-0300\n"
 "PO-Revision-Date: 2020-02-13 15:30+0100\n"
 "Last-Translator: Claudio Arseni <claudio.arseni@gmail.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -1010,7 +1010,7 @@ msgstr "Caratteri"
 msgid "Date & Time"
 msgstr "Data e ora"
 
-#: ../src/basic.c:277
+#: ../src/basic.c:278
 msgid ""
 "This custom lesson is empty. You can define two or more different characters "
 "to generate a personal practice. Press the editting button in the upper-"
@@ -1020,11 +1020,11 @@ msgstr ""
 "caratteri per generare una lezione personale. Premere il pulsante di "
 "modifica nell'angolo in alto a destra."
 
-#: ../src/basic.c:376
+#: ../src/basic.c:387
 msgid "Positions of keys seems to be learned!"
 msgstr "Sembra sia stata appresa la posizione dei tasti!"
 
-#: ../src/basic.c:377
+#: ../src/basic.c:388
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1036,7 +1036,7 @@ msgstr ""
 " Passare al successivo esercizio: «adattabilità».\n"
 " Sarà possibile imparare principalmente la precisione.\n"
 
-#: ../src/basic.c:383
+#: ../src/basic.c:394
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
