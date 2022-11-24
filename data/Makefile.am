@@ -185,7 +185,7 @@ desktopdir = $(datarootdir)/applications
 desktop_in_file = klavaro.desktop.in
 desktop_DATA = $(desktop_in_file:.desktop.in=.desktop)
 @INTLTOOL_XML_RULE@
-appdatadir = $(datarootdir)/appdata
+appdatadir = $(datarootdir)/metainfo
 appdata_in_files = klavaro.appdata.xml.in
 appdata_DATA = $(appdata_in_files:.xml.in=.xml)
 DISTCLEANFILES = $(desktop_DATA) \

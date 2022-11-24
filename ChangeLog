@@ -1,8 +1,13 @@
-2021-08-0?  Felipe Castro (-) <fefcas.at.gmail.com>;
+2022-11-??  Felipe Castro (-) <fefcas.at.gmail.com>;
 	* Release 3.14
+	* Changed:
+	- Some debugging for trans_lang_get_similar function.
+	- appdata ==> metainfo for desktop stuff.
+	- Non-deprecated replacements for icon names.
 	* Fixed:
 	- Progress chart for basic module showing lesson 0 as lesson 1.
 	- Spell correction: editting ==> editing.
+	- Semicolon at end of keyword entries in klavaro.desktop.in.
 	* Added:
 	- Indonesian translation
 	* Updated translations:

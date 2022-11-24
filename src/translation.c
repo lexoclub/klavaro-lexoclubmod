@@ -262,6 +262,12 @@ trans_lang_get_similar (gchar * test)
 	gint i;
 	gchar aux_code_2[3];
 
+	if (test == NULL)
+		return (FALSE);
+
+	if (g_str_equal (test, "C"))
+		return (TRUE);
+
 	/* Prefer C over en_GB for English variants other than en_GB. (Debian patch 02) */
 	if (g_str_has_prefix (test, "en"))
 	{
@@ -270,12 +276,8 @@ trans_lang_get_similar (gchar * test)
 		return (TRUE);
 	}
 
-	if (g_str_equal (test, "C"))
-		return TRUE;
-
 	strncpy (aux_code_2, test, 2);
 	aux_code_2[2] = '\0';
-
 	for (i = 0; i < lang_num; i++)
 	{
 		if (strstr (lang[i].code, aux_code_2))
@@ -284,12 +286,6 @@ trans_lang_get_similar (gchar * test)
 			test = g_strdup (lang[i].code);
 			break;
 		}
-	}
-	if (i == lang_num && g_str_has_prefix (test, "en"))
-	{
-		g_free (test);
-		test = g_strdup ("C");
-		return (TRUE);
 	}
 	return (i == lang_num ? FALSE : TRUE);
 }
@@ -300,14 +296,13 @@ trans_lang_get_similar (gchar * test)
 void
 trans_init_language_env ()
 {
-	gchar *tmp_code;
-	gboolean lang_ok;
+	gchar *tmp_code = NULL;
+	gboolean lang_ok = FALSE;
 	gint i;
 
 	/*
 	 * If the language is already set in preferences, just use it
 	 */
-	lang_ok = FALSE;
 	if (main_preferences_exist ("interface", "language"))
 	{
 		lang_ok = TRUE;
@@ -317,6 +312,8 @@ trans_init_language_env ()
 			tmp_code[2] = '\0';
 			if (trans_lang_is_available (tmp_code) == FALSE)
 			{
+				g_free (tmp_code);
+				tmp_code = NULL;
 				lang_ok = FALSE;
 				main_preferences_remove ("interface", "language");
 			}
@@ -334,7 +331,7 @@ trans_init_language_env ()
 		i = 0;
 		while ((tmp_code = g_strdup (g_get_language_names ()[i])))
 		{
-			if (tmp_code[0] == 'C')
+			if (tmp_code[0] == 'C') /* Last one (always!) */
 			{
 				lang_ok = (i == 0 ? TRUE : FALSE);
 				break;
@@ -359,7 +356,8 @@ trans_init_language_env ()
 				lang_ok = trans_lang_get_similar (tmp_code);
 				if (lang_ok == TRUE)
 					break;
-				g_free (tmp_code);
+				if (tmp_code != NULL)
+					g_free (tmp_code);
 				lang_ok = FALSE;
 				i++;
 			}
