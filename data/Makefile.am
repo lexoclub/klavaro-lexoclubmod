@@ -55,6 +55,7 @@ klavaro_data = \
 	gurmukhi_in_jhelum.kbd \
 	gurmukhi_pk_jhelum.kbd \
 	gurmukhi_pk_jhelumShift.kbd \
+	hindi_in_kruti.kbd \
 	jtsuken_kk.kbd \
 	jtsuken_ru.kbd \
 	jtsuken_ru_typewriter.kbd \
@@ -134,6 +135,8 @@ klavaro_data = \
 	fr.paragraphs \
 	gl.words \
 	gl.paragraphs \
+	hi.words \
+	hi.paragraphs \
 	hr.words \
 	hr.paragraphs \
 	hu.words \

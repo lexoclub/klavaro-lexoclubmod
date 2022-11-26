@@ -257,33 +257,36 @@ trans_lang_has_stopmark ()
  * Private auxiliar function
  */
 static gboolean
-trans_lang_get_similar (gchar * test)
+trans_lang_get_similar (gchar ** test)
 {
 	gint i;
 	gchar aux_code_2[3];
 
-	if (test == NULL)
+	if (*test == NULL)
+	{
+		g_warning ("trans_lang_get_similar received NULL lang code");
 		return (FALSE);
+	}
 
-	if (g_str_equal (test, "C"))
+	if (g_str_equal (*test, "C"))
 		return (TRUE);
 
 	/* Prefer C over en_GB for English variants other than en_GB. (Debian patch 02) */
-	if (g_str_has_prefix (test, "en"))
+	if (g_str_has_prefix (*test, "en"))
 	{
-		g_free (test);
-		test = g_strdup ("C");
+		g_free (*test);
+		*test = g_strdup ("C");
 		return (TRUE);
 	}
 
-	strncpy (aux_code_2, test, 2);
+	strncpy (aux_code_2, *test, 2);
 	aux_code_2[2] = '\0';
 	for (i = 0; i < lang_num; i++)
 	{
 		if (strstr (lang[i].code, aux_code_2))
 		{
-			g_free (test);
-			test = g_strdup (lang[i].code);
+			g_free (*test);
+			*test = g_strdup (lang[i].code);
 			break;
 		}
 	}
@@ -353,7 +356,7 @@ trans_init_language_env ()
 					lang_ok = (i == 0 ? TRUE : FALSE);
 					break;
 				}
-				lang_ok = trans_lang_get_similar (tmp_code);
+				lang_ok = trans_lang_get_similar (&tmp_code);
 				if (lang_ok == TRUE)
 					break;
 				if (tmp_code != NULL)
@@ -366,7 +369,7 @@ trans_init_language_env ()
 		tmp_code = g_win32_getlocale ();
 		lang_ok = trans_lang_is_available (tmp_code);
 		if (lang_ok == FALSE)
-			lang_ok = trans_lang_get_similar (tmp_code);
+			lang_ok = trans_lang_get_similar (&tmp_code);
 #endif
 	}
 	if (tmp_code == NULL)
