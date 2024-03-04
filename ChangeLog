@@ -1,4 +1,9 @@
-2022-11-27?  Felipe Castro (-) <fefcas.at.gmail.com>;
+2024-04-??  Felipe Castro (-) <fefcas.at.gmail.com>;
+	* Release 3.15
+	* Added:
+	- Slovak translation.
+
+2022-12-13  Felipe Castro (-) <fefcas.at.gmail.com>;
 	* Release 3.14
 	* Changed:
 	- appdata ==> metainfo for desktop stuff.

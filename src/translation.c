@@ -85,10 +85,10 @@ trans_code_to_country (gchar *code)
 		{"pk","پاکستان"},
 		{"pt","Portugal"},
 		{"rs","Србија"}, /* Serbia */
-		{"ru","Россия"},
-		{"se","Sverige"},
-		{"si","Slovenija"},
-		{"sk","Slovensko"},
+		{"ru","Россия"}, /* Russia */
+		{"se","Sverige"}, /* Sweden */
+		{"si","Slovenija"}, /* Slovenia */
+		{"sk","Slovensko"}, /* Slovakia */
 		{"tr","Türkiye"},
 		{"ua","Україна"},
 		/* 40 */

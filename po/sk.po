@@ -1,0 +1,1091 @@
+# Slovak translations for Klavaro.
+# Copyright (C) 2024 Free Software Foundation, Inc.
+# This file is distributed under the same license as the klavaro package.
+# Marián Haburaj <hajkomajko5@gmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: klavaro-3.12\n"
+"Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2021-04-14 00:05-0300\n"
+"PO-Revision-Date: 2024-01-24 17:12+0100\n"
+"Last-Translator: Marián Haburaj <hajkomajko5@gmail.com>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"Language: sk\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ../data/klavaro.glade.h:1
+msgid "Klavaro - Progress"
+msgstr "Klavaro - Pokrok"
+
+#: ../data/klavaro.glade.h:2
+msgid "_Lesson:"
+msgstr "_Lekcia:"
+
+#: ../data/klavaro.glade.h:3
+msgid "Value"
+msgstr "Hodnota"
+
+#: ../data/klavaro.glade.h:4
+msgid "Clear progress data."
+msgstr "Vymazať údaje postupu."
+
+#: ../data/klavaro.glade.h:5
+msgid "_Reset"
+msgstr "_Vynulovať"
+
+#: ../data/klavaro.glade.h:6
+msgid "Close this window, returning to the exercise."
+msgstr "Zatvoriť toto okno a vrátiť sa k cvičeniu."
+
+#: ../data/klavaro.glade.h:7
+msgid "_Close"
+msgstr "_Zavrieť"
+
+#. Everything means ALL the progress charts statistics.
+#: ../data/klavaro.glade.h:9
+msgid "everything!"
+msgstr "všetko!"
+
+#. Confirmation check-button for removing data.
+#: ../data/klavaro.glade.h:11
+msgid "Clear data for every module, if checked!"
+msgstr "Zmazať všetky údaje postupu vo všetkých moduloch!"
+
+#: ../data/klavaro.glade.h:12
+msgid "Load other exercises/lessons"
+msgstr "Načítať iné cvičenia/lekcie"
+
+#: ../data/klavaro.glade.h:13
+msgid "_Other texts"
+msgstr "_Iné texty"
+
+#: ../data/klavaro.glade.h:14
+msgid "Edit the character set to be used in this lesson."
+msgstr "Upraviť znakovú sadu použitú v tomto cvičení."
+
+#: ../data/klavaro.glade.h:15
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr "Toto je cvičenie na precvičenie vašich chýb."
+
+#: ../data/klavaro.glade.h:16
+msgid "Edit the character set to be used in lessons after 43: they are customizable!"
+msgstr "Upraviť znakovú sadu použitú v lekciách po lekcii 43: sú užívateľsky upravovateľné!"
+
+#: ../data/klavaro.glade.h:17 ../src/tutor.c:397
+msgid "Drag and drop text here to practice with it."
+msgstr "Presuňte a pustite sem text, ktorý si chcete precvičiť."
+
+#: ../data/klavaro.glade.h:18
+msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
+msgstr "Kliknite sem pre obnovenie cvičenia. Skratka: [Ctrl-R]"
+
+#: ../data/klavaro.glade.h:19
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "Zobraz virtuálnu klávesnicu a vzťahy medzi prstami a klávesmi."
+
+#: ../data/klavaro.glade.h:20
+msgid "_Keyboard"
+msgstr "_Klávesnica"
+
+#: ../data/klavaro.glade.h:21
+msgid "Select the font to be used in the exercise window."
+msgstr "Zvoľte si písmo, ktoré bude použité v okne s cvičením.."
+
+#: ../data/klavaro.glade.h:22
+msgid "Font definition"
+msgstr "Definícia písma"
+
+#: ../data/klavaro.glade.h:23
+msgid "Alternative color scheme, needs restart!"
+msgstr "Alternatívna farebná schéma, vyžaduje reštart okna cvičenia!"
+
+#: ../data/klavaro.glade.h:24
+msgid "Co_urse information"
+msgstr "Informácie o k_urze"
+
+#: ../data/klavaro.glade.h:25
+msgid "Charts showing the learning progress along the exercises."
+msgstr "Grafy zobrazujúce postup učenia behom jednotlivých cvičení."
+
+#: ../data/klavaro.glade.h:26
+msgid "_Progress"
+msgstr "_Pokrok"
+
+#: ../data/klavaro.glade.h:27
+msgid "Exit the application immediately."
+msgstr "Ihneď ukončiť aplikáciu."
+
+#: ../data/klavaro.glade.h:28
+msgid "Return to the main menu."
+msgstr "Vrátiť sa do hlavného menu."
+
+#: ../data/klavaro.glade.h:29
+msgid "B_ack to menu"
+msgstr "N_aspäť do menu"
+
+#: ../data/klavaro.glade.h:30
+msgid "Show local and external scores from other users."
+msgstr "Zobraziť lokálne a externé hodnotenia od ostatných používateľov."
+
+#: ../data/klavaro.glade.h:31
+msgid "_Top 10"
+msgstr "_Top 10"
+
+#: ../data/klavaro.glade.h:32
+msgid "Change language"
+msgstr "Zmeniť jazyk"
+
+#: ../data/klavaro.glade.h:33
+msgid "Attention!"
+msgstr "Upozornenie!"
+
+#: ../data/klavaro.glade.h:34
+msgid "Do you confirm?"
+msgstr "Súhlasíte?"
+
+#: ../data/klavaro.glade.h:35
+msgid "_No"
+msgstr "_Nie"
+
+#: ../data/klavaro.glade.h:36
+msgid "_Yes"
+msgstr "_Áno"
+
+#: ../data/klavaro.glade.h:37
+msgid "Klavaro - Select file"
+msgstr "Klavaro - Vybrať súbor"
+
+#: ../data/klavaro.glade.h:38
+msgid "_Cancel"
+msgstr "_Zrušiť"
+
+#: ../data/klavaro.glade.h:39
+msgid "_Open"
+msgstr "_Otvoriť"
+
+#: ../data/klavaro.glade.h:40
+msgid "Re_name:"
+msgstr "Preme_novať:"
+
+#: ../data/klavaro.glade.h:41
+msgid "Rename the selected item."
+msgstr "Premenovať vybrané položky."
+
+#: ../data/klavaro.glade.h:42
+msgid "Read a text file and add a copy of it here. The file must be encoded in UTF-8."
+msgstr "Prečítať textový súbor a pridať jeho kópiu tu. Súbor musí byť vo formáte UTF-8."
+
+#: ../data/klavaro.glade.h:43
+msgid "_Open text file"
+msgstr "_Otvoriť textový súbor"
+
+#: ../data/klavaro.glade.h:44
+msgid "Paste text that was copied to the clipboard."
+msgstr "Prilepiť text, ktorý bol skopírovaný do schránky."
+
+#: ../data/klavaro.glade.h:45
+msgid "_Paste from clipboard"
+msgstr "_Prilepiť zo schránky"
+
+#: ../data/klavaro.glade.h:46
+msgid "Remove the selected item."
+msgstr "Vymazať označenú položku."
+
+#: ../data/klavaro.glade.h:47
+msgid "_Remove copied file"
+msgstr "­Vymazať skopí_rované súbory"
+
+#: ../data/klavaro.glade.h:48
+msgid "Apply the selected item to create an exercise."
+msgstr "Vytvor cvičenie z označených položiek."
+
+#: ../data/klavaro.glade.h:49
+msgid "_Apply"
+msgstr "_Aplikovať"
+
+#: ../data/klavaro.glade.h:50
+msgid "Close this window."
+msgstr "Zatvoriť toto okno."
+
+#: ../data/klavaro.glade.h:51
+msgid "Country / Custom"
+msgstr "Krajina / vlastné"
+
+#: ../data/klavaro.glade.h:52
+msgid "Variant"
+msgstr "Variant"
+
+#: ../data/klavaro.glade.h:53
+msgid "Remove the selected custom layout."
+msgstr "Odstrániť označené vybrané rozloženie."
+
+#: ../data/klavaro.glade.h:54
+msgid "_Remove"
+msgstr "Odst_rániť"
+
+#: ../data/klavaro.glade.h:55
+msgid "Toggles the shift effect on the keys. Alternates between the upper and lower characters of the keys."
+msgstr "Stlačenie klávesu shift prepína medzi písaním malých a veľkých písmen."
+
+#: ../data/klavaro.glade.h:56
+msgid "SPACE BAR"
+msgstr "MEDZERNÍK"
+
+#: ../data/klavaro.glade.h:57 ../src/keyboard.c:1722
+msgid "thumbs"
+msgstr "palce"
+
+#: ../data/klavaro.glade.h:58
+msgid "Tab"
+msgstr "Tabulátor"
+
+#: ../data/klavaro.glade.h:59
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../data/klavaro.glade.h:60
+msgid "Caps"
+msgstr "Caps"
+
+#: ../data/klavaro.glade.h:61
+msgid "S_ave as:"
+msgstr "Uložiť _ako:"
+
+#: ../data/klavaro.glade.h:62
+msgid "Show previous screen."
+msgstr "Zobraziť predchádzajúcu obrazovku."
+
+#: ../data/klavaro.glade.h:63
+msgid "_Previous step"
+msgstr "_Predchádzajúci krok"
+
+#: ../data/klavaro.glade.h:64
+msgid "Show next screen."
+msgstr "Zobraziť ďalšiu obrazovku."
+
+#: ../data/klavaro.glade.h:65
+msgid "_Next step"
+msgstr "_Nasledujúci krok"
+
+#: ../data/klavaro.glade.h:66
+msgid "Return without any modification."
+msgstr "Vrátiť sa bez akýchkoľvek zmien."
+
+#: ../data/klavaro.glade.h:67
+msgid "Save the current keyboard layout with the name specified above."
+msgstr "Uložiť súčasné rozloženie klávesnice s menom zadaným vyššie."
+
+#: ../data/klavaro.glade.h:68
+msgid "_Save and use"
+msgstr "_Uložiť a použiť"
+
+#: ../data/klavaro.glade.h:69
+msgid "If you like those beautiful hands, click here to close this window keeping them."
+msgstr "Ak sa vám páčia tieto nádherné ruky, kliknite sem na zatvorenie okna s ponechaním rúk."
+
+#: ../data/klavaro.glade.h:70
+msgid "_Keep hands"
+msgstr "Ponechať ru_ky"
+
+#: ../data/klavaro.glade.h:71
+msgid "Klavaro - Main menu"
+msgstr "Klavaro - hlavné menu"
+
+#: ../data/klavaro.glade.h:72
+msgid "Don't be shy about learning the basics!"
+msgstr "Nehanbite sa naučiť základy!"
+
+#: ../data/klavaro.glade.h:73
+msgid "Learn how to type correctly"
+msgstr "Naučte sa ako písať správne"
+
+#: ../data/klavaro.glade.h:74
+msgid "Initial training for your fingers."
+msgstr "Počiatočný tréning pre vaše prsty."
+
+#: ../data/klavaro.glade.h:75
+msgid "First steps with initial training"
+msgstr "Prvé kroky v počiatočnom tréningu"
+
+#: ../data/klavaro.glade.h:76
+msgid "Memorizing the keyboard practicing random keys exercises."
+msgstr "Naučenie sa klávesnice cvičením náhodných znakov."
+
+#: ../data/klavaro.glade.h:77
+msgid "Practice with random keys"
+msgstr "Cvičenie náhodných znakov"
+
+#: ../data/klavaro.glade.h:78
+msgid "Accelerating the touches practicing random words exercises."
+msgstr "Zvyšovanie rýchlosti cvičením náhodných slov."
+
+#: ../data/klavaro.glade.h:79
+msgid "Practice with random words"
+msgstr "Cvičenie s náhodnými slovami"
+
+#: ../data/klavaro.glade.h:80
+msgid "Becoming proficient practicing complete paragraphs exercises."
+msgstr "Staňte sa dokonalým(ou) precvičovaním celých odstavcov."
+
+#: ../data/klavaro.glade.h:81
+msgid "Practice with complete texts"
+msgstr "Cvičenie kompletných textov"
+
+#: ../data/klavaro.glade.h:82
+msgid "Speech"
+msgstr "Diktovať"
+
+#: ../data/klavaro.glade.h:83
+msgid "Your language here."
+msgstr "Váš jazyk."
+
+#: ../data/klavaro.glade.h:84
+msgid "Keyboard layout for modules 1 and 2. Also used informatively in the fluidness contest."
+msgstr "Rozloženie klávesnice pre moduly 1 a 2. Takisto používané pri teste plynulosti."
+
+#: ../data/klavaro.glade.h:85
+msgid "_Keyboard:"
+msgstr "_Klávesnica:"
+
+#: ../data/klavaro.glade.h:86
+msgid "Language for modules 3 and 4."
+msgstr "Jazyk pre moduly 3 a 4."
+
+#: ../data/klavaro.glade.h:87
+msgid "_Language:"
+msgstr "­_Jazyk:"
+
+#: ../data/klavaro.glade.h:88
+msgid "General information about the program."
+msgstr "Všeobecné informácie o programe."
+
+#: ../data/klavaro.glade.h:89
+msgid "_About..."
+msgstr "O _aplikácii..."
+
+#: ../data/klavaro.glade.h:90 ../data/klavaro.desktop.in.h:2
+msgid "Yet another touch typing tutor"
+msgstr "Jednoducho ďalší program na naučenie sa písania"
+
+#: ../data/klavaro.glade.h:91
+msgid "Remember always: someone loves you!"
+msgstr "Vždy si pamätajte: niekto vás má rád!"
+
+#: ../data/klavaro.glade.h:92
+msgid "Top 10"
+msgstr "Top 10"
+
+#: ../data/klavaro.glade.h:93
+msgid "Show extra information."
+msgstr "Zobraz doplňujúce informácie."
+
+#: ../data/klavaro.glade.h:94
+msgid "Hide extra information."
+msgstr "Skry doplňujúce informácie."
+
+#: ../data/klavaro.glade.h:95
+msgid "Publish to the web your local scores."
+msgstr "Zverejnite na web svoje lokálne skóre."
+
+#: ../data/klavaro.glade.h:96
+msgid "_Participate"
+msgstr "_Zúčastniť sa"
+
+#: ../data/klavaro.glade.h:97
+msgid "Download from the web the most up to date ranking."
+msgstr "Stiahnite si z webu najnovšie hodnotenia."
+
+#: ../data/klavaro.glade.h:98
+msgid "_Update"
+msgstr "Akt_ualizovať"
+
+#: ../data/klavaro.desktop.in.h:1
+msgid "Klavaro"
+msgstr "Klavaro"
+
+#: ../data/klavaro.desktop.in.h:3
+msgid "A very flexible and efficient touch typing tutor."
+msgstr "Veľmi flexibilný a efektívny program na naučenie sa písania."
+
+#: ../src/main.c:304
+msgid "(Custom)"
+msgstr "(Vlastné)"
+
+#: ../src/main.c:305
+msgid "(Edit custom)"
+msgstr "(Uprav vlastné)"
+
+#: ../src/main.c:306
+msgid "(Default)"
+msgstr "(Predvolené)"
+
+#: ../src/main.c:383
+#, c-format
+msgid "Dictation mode (depends on this speech synthesizer: %s)"
+msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
+msgstr[0] "Režim diktovania (závisí od hlasového syntetizátoru: %s)"
+msgstr[1] "Režim diktovania (závisí od týchto hlasových syntetizátorov: %s)"
+msgstr[2] "Režim diktovania (závisí od týchto hlasových syntetizátorov: %s)"
+
+#. Set main labels (for translation)
+#.
+#: ../src/main.c:425 ../src/keyboard.c:1381
+msgid "Introduction"
+msgstr "Úvod"
+
+#: ../src/main.c:428 ../src/top10.c:110
+msgid "Basic course"
+msgstr "Základný kurz"
+
+#: ../src/main.c:431 ../src/top10.c:113
+msgid "Adaptability"
+msgstr "Adaptabilita"
+
+#: ../src/main.c:435 ../src/main.c:437 ../src/callbacks.c:1402
+#: ../src/top10.c:90 ../src/top10.c:116
+msgid "Speed"
+msgstr "Rýchlosť"
+
+#: ../src/main.c:440 ../src/callbacks.c:1425 ../src/top10.c:92
+#: ../src/top10.c:119
+msgid "Fluidity"
+msgstr "Plynulosť"
+
+#: ../src/callbacks.c:481 ../src/tutor.c:543
+msgid "Keys:"
+msgstr "Znaky:"
+
+#: ../src/callbacks.c:876 ../src/callbacks.c:892
+msgid "Connecting..."
+msgstr "Pripájam sa..."
+
+#: ../src/callbacks.c:1165
+msgid "Overwrite user layout"
+msgstr "Prepísať používateľské rozloženie klávesnice"
+
+#: ../src/callbacks.c:1167
+msgid "This will OVERWRITE an existent keyboard layout."
+msgstr "Toto PREPÍŠE existujúce rozloženie klávesnice."
+
+#: ../src/callbacks.c:1174
+msgid "Remove user layout"
+msgstr "Odstrániť používateľské rozloženie klávesnice"
+
+#: ../src/callbacks.c:1176
+msgid "This will REMOVE an existent keyboard layout."
+msgstr "Toto ODSTRÁNI existujúce rozloženie klávesnice."
+
+#: ../src/callbacks.c:1183 ../src/callbacks.c:1188
+msgid "Reset progress data"
+msgstr "Vyresetovať údaje postupu"
+
+#: ../src/callbacks.c:1184
+msgid "This will DELETE all the progress data of all modules."
+msgstr "Toto VYMAŽE všetky údaje postupu zo všetkých modulov."
+
+#: ../src/callbacks.c:1196
+#, c-format
+msgid "This will delete the data of this chart. <%s>"
+msgstr "Toto VYMAŽE údaje z tohto grafu. <%s>"
+
+#: ../src/callbacks.c:1199
+#, c-format
+msgid "This will delete the progress data of the module. (%s)"
+msgstr "Toto VYMAŽE údaje s postupom z modulu. (%s)"
+
+#: ../src/callbacks.c:1399 ../src/top10.c:88
+msgid "Accuracy"
+msgstr "Presnosť"
+
+#: ../src/callbacks.c:1402 ../src/tutor.c:1325
+msgid "(WPM)"
+msgstr "(slov/min)"
+
+#: ../src/callbacks.c:1413
+msgid "Errors"
+msgstr "Chyby"
+
+#: ../src/callbacks.c:1416
+msgid "Touch times (s)"
+msgstr "Čas dotyku (s)"
+
+#: ../src/callbacks.c:1428 ../src/tutor.c:1352 ../src/top10.c:70
+msgid "Score"
+msgstr "Skóre"
+
+#. Translators: your language code (first 2 letters of your po-file)
+#: ../src/translation.c:522 ../src/tutor.c:1758
+msgid "en"
+msgstr "sk"
+
+#: ../src/translation.c:609
+msgid "The basic course focuses on having you read the characters presented to you on screen and typing the corresponding keys. Remember to keep your hands correctly oriented on the home row of the keyboard at all times (see introduction on main menu)."
+msgstr "Základný kurz sa zameriava na čítanie písmen na obrazovke a písanie súvisiacich písmen. Nezabudnite mať ruky v správnej polohe celý čas (pozrite inštrukcie v hlavnom menu)."
+
+#: ../src/translation.c:613
+msgid "The key set used in each series will be shown in the above message line. The [Space], [Shift] and [Enter] keys may not show up there but are used very often."
+msgstr "Skupina klávesov použitá v každej sérii sa bude zobrazovať v hornom informačnom riadku. [Medzerník], [Shift] a [Enter] nie sú zobrazované, ale sú používané veľmi často."
+
+#: ../src/translation.c:616
+msgid "The message line below follows and echoes your key presses. If required, it changes and displays instructions for actions required from you."
+msgstr "V spodnom informačnom riadku budú zobrazované stlačenia klávesov. Ak to bude potrebné, zobrazí inštrukcie pre akcie, ktoré budete musieť vykonať."
+
+#: ../src/translation.c:620
+msgid "Here you may practice and improve your memorization of all keys. There will be sentences presented with nonsense words which mix some numbers and symbols."
+msgstr "Tu môžete cvičiť a zlepšovať si zapamätanie rozloženia klávesnice. Budú tu vety s nezmyselnými slovami, v ktorých budú čísla a symboly."
+
+#: ../src/translation.c:623
+msgid "In order to keep the lesson contents language and keyboard independent, accented letter combinations will probably not appear. For real word sentences, please use the fourth option of the main menu (about fluidness)."
+msgstr "Pre zachovanie nezávislostí lekcie na jazyku a rozložení klávesnice tu nebudú znaky s diakritikou. Pre písanie skutočných viet, prosím použite štvrtú možnosť v hlavnom menu (plynulosť)."
+
+#: ../src/translation.c:627
+msgid "After each exercise there will be a brief statistics panel reviewing your performance along with some relevant comments."
+msgstr "Po každom cvičení tu bude krátka štatistika o vašom výkone s nejakým príslušným komentárom."
+
+#: ../src/translation.c:631
+msgid "This exercise is very similar to the second one, for adaptability. The difference is that here you'll type real words."
+msgstr "Toto cvičenie je veľmi podobné druhému, pre adaptabilitu. Rozdiel je, že tu píšete reálne slová."
+
+#: ../src/translation.c:634
+msgid "The default language is the actual one of the interface. But you may select any other texts with words you would like to use. Press the 'Other' option above and add files containing those texts."
+msgstr "Predvolený jazyk je rovnaký ako jazyk systému. Ale môžete si zvoliť akékoľvek iné texty so slovami, ktoré chcete písať. Stlačte \"Iné\" vyššie a pridajte textové súbory."
+
+#: ../src/translation.c:638
+msgid "With this exercise the focus is on speed. So, you are supposed to type really fast and I will only flatter you when you deserve it!"
+msgstr "Toto cvičenie je zamerané na rýchlosť. Takže budete musieť písať veľmi rýchlo a ja vás odmením len vtedy, keď si to zaslúžite!"
+
+#: ../src/translation.c:642
+msgid "We will now use complete sentences and paragraphs which make logical sense. This may distract you while you type if you try to understand what you are entering. The previous exercises were aimed at getting you to type without interpreting and analyzing the content."
+msgstr "Teraz tu budú celé vety a odseky, ktoré majú logický zmysel. Toto vás môže odpútavať pri písaní, ak sa budete snažiť porozumieť textu. Predchádzajúce cvičenia boli zamerané na písanie bez interpretácie a analýzy obsahu."
+
+#: ../src/translation.c:646
+msgid "We do not mean to imply that the typists must behave like a robot, without understanding what they type. We do aim to develop the skill of typing, making it an automatic reflex akin to the acts of walking, talking, etc. After reaching this goal, the act of typing will become automatic and require little concentration. Then you will be able to pay attention to the real meaning of the text."
+msgstr "To neznamená, že sa máte správať ako robot, bez pochopenia písaného textu. Ale mierime tým k vybudovaniu schopnosti písania podobnému automatického reflexu ako je kráčanie, rozprávanie sa atď. Po dosiahnutí tohto cieľa sa písanie stane automatickým a bude vyžadovať len malú pozornosť. Potom budete schopný(á) dávať pozor na zmysel textu."
+
+#: ../src/translation.c:650
+msgid "These exercises are longer. Each exercise consists of three paragraphs and the emphasis is placed on correctness and rhythm, with a minimum speed requirement. Here you will be required to use the backspace key to correct any mistakes. In other words, only input without error will be accepted."
+msgstr "Tieto cvičenia sú dlhšie. Každé cvičenie pozostáva z troch odsekov a dôraz je kladený na správnosť a rytmus, na rýchlosť len minimálne. Tu bude potrebné po chybe stlačiť tlačidlo Backspace a chybu opraviť. Inými slovami, len správny vstup bude uznaný."
+
+#: ../src/keyboard.c:1181
+msgid "Correct positioning of the hands and fingers is very important to efficient typing. You will learn faster and type better if you follow the next recommendations."
+msgstr "Správna pozícia rúk a prstov je veľmi dôležitá pre efektivitu písania. Budete sa učiť rýchlejšie a písať lepšie, keď sa budete držať týchto odporúčaní."
+
+#: ../src/keyboard.c:1184
+msgid "The index-finger tips rest over each of the two keys which have a small raised mark, in the center of the keyboard."
+msgstr "Ukazováky sa umiestňujú približne v strede klávesnice na klávesy označené malým výstupkom."
+
+#: ../src/keyboard.c:1187
+msgid "These marks function as 'tactile hooks' for your fingers to remain at the correct position. This way, with a little experience, you will not need to look at the keyboard to see if your fingers are properly positioned."
+msgstr "Tieto značky fungujú ako \"záchytné body\" pre vaše prsty, aby zostali na správnej pozícií. Takto s trochou skúsenosti sa nebudete potrebovať pozerať na klávesnicu, aby ste sa presvedčili, že máte prsty správne umiestnené."
+
+#: ../src/keyboard.c:1191
+msgid "The tips of the other fingers lie naturally beside the index ones, over the keys on the same row of the keyboard."
+msgstr "Ďalšie prsty sú prirodzene vedľa seba, v rade s ukazovákmi."
+
+#: ../src/keyboard.c:1194
+msgid "The outside edges of your thumbs rest over the space bar."
+msgstr "Konce palcov sú nad medzerníkom."
+
+#: ../src/keyboard.c:1196
+msgid "The part of the hands closest to the wrist (the base) rest over the table, outside the keyboard. Without this kind of support the arms would quickly tire."
+msgstr "Časť ruky pri zápästí sa opiera o stôl, mimo klávesnice. Bez tejto opory sa ruky rýchlo unavia."
+
+#: ../src/keyboard.c:1199
+msgid "This is referred to as the home position for the hands. From it the fingers move all over the keyboard, reaching all the keys as naturally and quickly as possible. To reach this goal one uses a specific relation between each key and finger. This relation will be learned gradually as you complete the basic course."
+msgstr "Toto je základná poloha rúk. Odtiaľ sa prsty pohybujú po celej klávesnici, siahajúc po všetkých klávesoch prirodzene a najrýchlejšie. Preto sa využívajú vzťahy medzi každým klávesom a daným prstom. Tieto vzťahy sa naučíte postupne ako budete plniť základný kurz."
+
+#: ../src/keyboard.c:1205
+msgid "When learning the relation between fingers and keys, it is very important that you only move the finger which must press the key and allow all other fingers to remain in the home position."
+msgstr "Keď sa učíte vzťahy medzi prstami a klávesmi, je veľmi dôležité, že budete pohybovať len prstom, ktorý musí stlačiť kláves a ponecháte ostatné prsty v základnej pozícií."
+
+#: ../src/keyboard.c:1209
+msgid "After memorizing this relationship, you can relax the previous rule some, so that you can attain greater speed while typing."
+msgstr "Po zapamätaní si vzťahov, nemusíte predchádzajúci krok presne dodržiavať. Takto môžete dosiahnuť vyššie rýchlosti pri písaní."
+
+#: ../src/keyboard.c:1212
+msgid "The shift keys are used for capital letters and for some symbols. To get a shifted key input you should first use the small finger of the opposite hand. Just keep it in the closest Shift while reaching the target key with the other hand."
+msgstr "Kláves shift (preraďovač) sa používa pre veľké písmená a niektoré znaky. Pre jeho použitie najprv použite malíček opačnej ruky, tzn. jedna ruka drží shift a druhá stláča písmeno. Drž shift pokiaľ stlačíte písmeno s druhou rukou."
+
+#: ../src/keyboard.c:1216
+msgid "You should be prepared to start training with the basic course. It will take effort and patience to be successful as a typist. We trust you have these and look forward to your success!"
+msgstr "Mali by ste byť pripravený(á) začať trénovať základný kurz. Nezabudnite, že budete potrebovať snahu a trpezlivosť, aby ste sa naučili písať všetkými desiatimi. Verím, že tieto hodnoty máte a teším sa na vaše úspechy!"
+
+#: ../src/keyboard.c:1227
+#, c-format
+msgid "Step %i"
+msgstr "Krok %i"
+
+#. Recommendations
+#: ../src/keyboard.c:1231
+msgid "To position the hands"
+msgstr "K umiestneniu rúk"
+
+#. Final words
+#: ../src/keyboard.c:1314
+msgid "Go ahead!"
+msgstr "Len do toho!"
+
+#: ../src/keyboard.c:1322 ../src/keyboard.c:1324
+msgid "Click on any key to see which finger you must use:"
+msgstr "Klikni na akýkoľvek kláves, aby ste videli, ktorý prst použiť:"
+
+#: ../src/keyboard.c:1323
+msgid "Relation between fingers and keys"
+msgstr "Vzťahy medzi prstami a klávesmi"
+
+#: ../src/keyboard.c:1381 ../src/keyboard.c:1415
+msgid "Keyboard"
+msgstr "Klávesnica"
+
+#: ../src/keyboard.c:1462
+msgid "Create or modify a custom keyboard layout"
+msgstr "Vytvor alebo uprav vlastné rozloženie klávesnice"
+
+#: ../src/keyboard.c:1710 ../src/keyboard.c:1734
+msgid "small finger"
+msgstr "malíček"
+
+#: ../src/keyboard.c:1713 ../src/keyboard.c:1731
+msgid "ring finger"
+msgstr "prstenník"
+
+#: ../src/keyboard.c:1716 ../src/keyboard.c:1728
+msgid "middle finger"
+msgstr "prostredník"
+
+#: ../src/keyboard.c:1719 ../src/keyboard.c:1725
+msgid "index finger"
+msgstr "ukazovák"
+
+#: ../src/keyboard.c:1820
+msgid "Press and edit me"
+msgstr "Stlačte ma a upravte ma"
+
+#: ../src/tutor.c:321
+msgid "Lesson:"
+msgstr "Lekcia:"
+
+#: ../src/tutor.c:331
+msgid "Paragraphs:"
+msgstr "Odsekov:"
+
+#: ../src/tutor.c:364
+msgid "Klavaro - Basic Course"
+msgstr "Klavaro - Základný kurz"
+
+#: ../src/tutor.c:369
+msgid "Klavaro - Adaptability"
+msgstr "Klavaro - Adaptabilita"
+
+#: ../src/tutor.c:372
+msgid "Adaptability exercises: automating the fingers responses, typing over all the keyboard."
+msgstr "Cvičenia na adaptabilitu: zautomatizujte si reakcie prstov pri písaní po celej klávesnici."
+
+#: ../src/tutor.c:377
+msgid "Klavaro - Velocity"
+msgstr "Klavaro - Rýchlosť"
+
+#: ../src/tutor.c:378
+msgid "Velocity exercises: accelerate typing real words."
+msgstr "Cvičenia rýchlosti: zrýchlite si písanie skutočných slov."
+
+#: ../src/tutor.c:382
+msgid "Klavaro - Fluidness"
+msgstr "Klavaro - Plynulosť"
+
+#: ../src/tutor.c:384
+msgid "Fluidness exercises: accuracy typing good sense paragraphs."
+msgstr "Cvičenia plynulosti: presnosť písania zmysluplných odsekov."
+
+#: ../src/tutor.c:446
+msgid "End of exercise. Press [Enter] to start another."
+msgstr "Koniec cvičenia. Stlačte [Enter] pre začatie ďalšieho."
+
+#: ../src/tutor.c:474
+msgid "Learning the key positions."
+msgstr "Učenie sa rozmiestnenia kláves."
+
+#: ../src/tutor.c:477
+msgid "Press any key to start the exercise. "
+msgstr "Stlačte hocijaký kláves pre začatie cvičenia. "
+
+#: ../src/tutor.c:605 ../src/tutor.c:608
+msgid "Start typing when you are ready. "
+msgstr "Začnite písať, keď budete pripravený(á). "
+
+#: ../src/tutor.c:606
+msgid "Use backspace to correct errors."
+msgstr "Použite backspace na opravu chýb."
+
+#: ../src/tutor.c:1053
+#, c-format
+msgid "ps.: logging not performed for this session: the number of typed characters (%i) must be greater than %i."
+msgstr "P. S.: uloženie pre toto cvičenie nie je možné: počet zadaných znakov (%i) musí vyť väčší než %i."
+
+#: ../src/tutor.c:1193
+msgid "ps.: you have entered the Top 10 list, great!"
+msgstr "P. S.: umiestnili ste sa v Top 10, skvelé!"
+
+#: ../src/tutor.c:1207
+msgid "ps.: the text you just typed doesn't seem to be similar to ordinary texts in the language currently selected: we can't account for it in the 'Top 10' contest."
+msgstr "P. S.: text, ktorý ste práve napísali nevyzerá podobne ako bežné texty zvoleného jazyka: výsledok nie je možné započítať v „Top 10‟."
+
+#. Begin the accuracy
+#: ../src/tutor.c:1252
+msgid "STATISTICS"
+msgstr "ŠTATISTIKY"
+
+#: ../src/tutor.c:1253
+msgid "Elapsed time:"
+msgstr "Ubehnutý čas:"
+
+#: ../src/tutor.c:1254
+msgid "minute and"
+msgid_plural "minutes and"
+msgstr[0] "minúta a"
+msgstr[1] "minúty a"
+msgstr[2] "minút a"
+
+#: ../src/tutor.c:1255
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "sekunda"
+msgstr[1] "sekundy"
+msgstr[2] "sekúnd"
+
+#: ../src/tutor.c:1256
+msgid "Error ratio:"
+msgstr "Pomer chýb:"
+
+#: ../src/tutor.c:1256
+msgid "Accuracy:"
+msgstr "Presnosť:"
+
+#: ../src/tutor.c:1277 ../src/tutor.c:1302 ../src/tutor.c:1325
+#: ../src/tutor.c:1351
+msgid "Goal:"
+msgstr "Cieľ:"
+
+#: ../src/tutor.c:1284
+msgid "Characters per second:"
+msgstr "Znakov za sekundu:"
+
+#: ../src/tutor.c:1302
+msgid "(CPS)"
+msgstr "(zn/s)"
+
+#: ../src/tutor.c:1307
+msgid "Words per minute:"
+msgstr "Slov za minútu:"
+
+#: ../src/tutor.c:1332
+msgid "Fluidness:"
+msgstr "Plynulosť:"
+
+#: ../src/tutor.c:1359
+msgid "Comments:"
+msgstr "Komentáre:"
+
+#: ../src/tutor.c:1837
+msgid "space"
+msgstr "medzera"
+
+#. Translators: the name of letter Y
+#: ../src/tutor.c:1842
+msgid "wye"
+msgstr "ypsilon"
+
+#. Translators: the name of the Return key
+#: ../src/tutor.c:1846
+msgid "enter"
+msgstr "enter"
+
+#: ../src/tutor.c:1852
+msgid "apostrophe"
+msgstr "apostrof"
+
+#. Translators: double quote symbol: "
+#: ../src/tutor.c:1856
+msgid "quote"
+msgstr "úvodzovka"
+
+#. Translators: ampersand symbol: &
+#: ../src/tutor.c:1860
+msgid "ampersand"
+msgstr "ampersand"
+
+#. Error frequencies or touch times
+#.
+#: ../src/plot.c:314
+msgid "Character"
+msgstr "Znak"
+
+#: ../src/plot.c:326
+msgid "Date & Time"
+msgstr "Dátum & Čas"
+
+#: ../src/basic.c:273
+msgid "This custom lesson is empty. You can define two or more different characters to generate a personal practice. Press the editting button in the upper-right corner."
+msgstr "Táto vlastná lekcia je prázdna. Tu si môžete definovať 2 alebo viac rôznych znakov na vytvorenie cvičenia. Stlačte tlačidlo na úpravu v pravom hornom rohu."
+
+#: ../src/basic.c:372
+msgid "Positions of keys seems to be learned!"
+msgstr "Zdá sa, že ste sa naučili rozmiestnenie kláves!"
+
+#: ../src/basic.c:373
+msgid ""
+" Congratulations!\n"
+" You have accomplished the entire basic course.\n"
+" Go to the next type of exercise: adaptability.\n"
+" There you will practice mainly the accuracy.\n"
+msgstr ""
+" Gratulujem!\n"
+"Splnili ste celý základný kurz.\n"
+"Choďte na ďalší typ cvičenia: adaptabilita.\n"
+"Tam budete cvičiť hlavne presnosť.\n"
+
+#: ../src/basic.c:379
+msgid ""
+" All right, now you got it!\n"
+" Go to the next lesson.\n"
+msgstr ""
+" V poriadku. teraz to už viete!\n"
+"Choďte na ďalšiu lekciu.\n"
+
+#: ../src/adaptability.c:247
+#, c-format
+msgid ""
+" Your accuracy rate is below %.0f%%...\n"
+" Could you please try again to improve it?\n"
+msgstr ""
+" Váš pomer presnosti je pod %.0f%%...\n"
+"Môžete to prosím skúsiť ešte raz vylepšiť to?\n"
+
+#: ../src/adaptability.c:250
+#, c-format
+msgid ""
+" You are doing well. But...\n"
+" Could you make the accuracy reach %.0f%%?\n"
+msgstr ""
+" Robíte to dobre. Ale...\n"
+"Mohli by ste dosiahnuť presnosť %.0f%%?\n"
+
+#: ../src/adaptability.c:253
+#, c-format
+msgid ""
+" You are almost there, but your accuracy rate is still below %.0f%%.\n"
+" Try a few more times, or maybe you're getting upset, so go to another kind of exercise.\n"
+msgstr ""
+" Ste skoro tam, ale váš pomer presnosti je stále pod %.0f%%.\n"
+"Vyskúšajte to ešte párkrát viac. Alebo sa možno stávate rozrušeným, tak choďte na iný typ cvičenia.\n"
+
+#: ../src/adaptability.c:260
+#, c-format
+msgid ""
+" Very good!\n"
+" You succeeded with an accuracy rate above %.0f%%.\n"
+" Now it is time to increase your velocity.\n"
+" Go to the 3rd exercise at the main menu.\n"
+msgstr ""
+" Veľmi dobre!\n"
+"Zvládli ste to s pomerom presnosti nad %.0f%%.\n"
+"Teraz je čas zlepšiť svoju rýchlosť.\n"
+"Choďte na 3. cvičenie v hlavnom menu.\n"
+
+#: ../src/velocity.c:333 ../src/fluidness.c:436
+msgid "Pasted_or_dropped"
+msgstr "Vložené_alebo_pustené"
+
+#: ../src/velocity.c:444
+msgid ""
+" You are just beginning.\n"
+" Be patient, try it again every day, rest and don't worry so much:\n"
+" persistence and practice will improve your velocity.\n"
+msgstr ""
+" Ste ešte len na začiatku.\n"
+"Buďte trpezlivý, skúste to znova každý deň, oddychujte a neobávajte sa veľmi:\n"
+"vytrvalosť a cvičenie zlepšia vašu rýchlosť.\n"
+
+#: ../src/velocity.c:448
+#, c-format
+msgid ""
+" Still away from the highway. You can do better...\n"
+" Try to reach at least %.0f WPM.\n"
+msgstr ""
+" Stále ďaleko od hlavného prúdu. Určite môžete písať lepšie...\n"
+"Skúste dosiahnuť aspoň %.0f slov za minútu.\n"
+
+#: ../src/velocity.c:451
+#, c-format
+msgid ""
+" You are doing well, but need to go faster.\n"
+" And don't forget the accuracy. Try to get %.0f WPM.\n"
+msgstr ""
+" Ide vám to dobre, ale potrebujete ísť rýchlejšie.\n"
+"A nezabudnite na presnosť. Skúste dosiahnuť %.0f slov za minútu.\n"
+
+#: ../src/velocity.c:454
+#, c-format
+msgid ""
+" Fine. Now you need to start running.\n"
+" Can you reach %.0f WPM?\n"
+msgstr ""
+" Dobre. Teraz sa potrebujete rozbehnúť.\n"
+"Môžete dosiahnuť %.0f slov za minútu?\n"
+
+#: ../src/velocity.c:457
+#, c-format
+msgid ""
+" Very good. You are almost there.\n"
+" Can you finally reach %.0f WPM?\n"
+msgstr ""
+" Veľmi dobre. Ste skoro tam.\n"
+"Môžete konečne získať %.0f slov za minútu?\n"
+
+#: ../src/velocity.c:460
+msgid ""
+" Excellent. For this course, that is enough.\n"
+" Try now the fluidness exercises, OK?\n"
+msgstr ""
+" Vynikajúcu. Pre tento kurz, toto je dostatočné.\n"
+"Teraz skúste cvičenia plynulosti. OK?\n"
+
+#: ../src/velocity.c:463
+#, c-format
+msgid ""
+" Fast! Are you a professional?\n"
+" So, try to get %.0f WPM!\n"
+msgstr ""
+" Rýchle! Ste profesionál?\n"
+"Tak skúste %.0f slov za minútu!\n"
+
+#. Translators: Speed Racer is a reference to a Japanese anime franchise
+#. about automobile racing, also known as Mach GoGoGo.
+#: ../src/velocity.c:468
+#, c-format
+msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
+msgstr " Dobré umiestnenie, ste rodený pretekár! Neobávate sa dosiahnuť %.0f slov za minútu?\n"
+
+#. Translators: feel free to change the reference to that martial art, if you find another good analogy.
+#: ../src/velocity.c:472
+#, c-format
+msgid ""
+" Kung-fu mastery!\n"
+" Can you fly at %.0f WPM?\n"
+msgstr ""
+" Majster Kung-fu!\n"
+"Môžete vyletieť na %.0f slov za minútu?\n"
+
+#. Translators: Dvorak here means that infamous ergonomic keyboard layout. Feel free to change the speed mastery analogy.
+#: ../src/velocity.c:475
+msgid ""
+" Dvorak master!\n"
+" I have no words to express my admiration!\n"
+msgstr ""
+" Majster Dvorak!\n"
+"Nemám žiadne slová na vyjadrenie mojej poklony!\n"
+
+#: ../src/fluidness.c:539
+#, c-format
+msgid ""
+" You type accurately but not so fast.\n"
+" Can you reach %.0f WPM?\n"
+msgstr ""
+" Píšete presne, ale nie tak rýchlo.\n"
+"Môžete dosiahnuť %.0f slov za minútu?\n"
+
+#: ../src/fluidness.c:542
+#, c-format
+msgid ""
+" Your rhythm is not so constant. Calm down.\n"
+" For now, try to make the fluidness greater than %i%%.\n"
+msgstr ""
+" Váš rytmus nie je konštantný. Upokojte sa.\n"
+"Nateraz, skúste mať plynulosť vyššiu než %i%%.\n"
+
+#: ../src/fluidness.c:545
+#, c-format
+msgid ""
+" You are almost getting there. Type more fluently.\n"
+" I want a fluidness greater than %.0f%%.\n"
+msgstr ""
+" Skoro sa tam dostávate. Píšte viac plynulejšie.\n"
+"Chcem plynulosť vyššiu než %.0f%%.\n"
+
+#: ../src/fluidness.c:548
+msgid ""
+" Congratulations!\n"
+" It seems to me that you are a professional.\n"
+" You don't need this program (me) anymore.\n"
+" Hope you have enjoyed. Thanks and be happy!\n"
+msgstr ""
+" Gratulujem!\n"
+"Tak sa mi zdá, že ste profesionál.\n"
+"Už nepotrebujete tento program a mňa.\n"
+"Verím, že ste si to užili. Ďakujem a buďte šťastný!\n"
+
+#: ../src/fluidness.c:553
+msgid ""
+" How can you type so fast?\n"
+" You have exceeded all my expectations.\n"
+" Are you a machine? Could you teach me?\n"
+" I can not help you anymore. Go to an expert!\n"
+msgstr ""
+" Ako môžete písať tak rýchlo?\n"
+"Prekonali ste všetky moje očakávania.\n"
+"Ste stroj? Mohli by ste ma učiť?\n"
+"Už vám nemôžem pomôcť. Choďte za expertom!\n"
+
+#: ../src/top10.c:68
+msgid "Name"
+msgstr "Meno"
+
+#: ../src/top10.c:94
+msgid "Chars"
+msgstr "Znakov"
+
+#: ../src/top10.c:96
+msgid "When"
+msgstr "Kedy"
+
+#: ../src/top10.c:125
+msgid "Local scores"
+msgstr "Lokálne skóre"
+
+#: ../src/top10.c:126
+msgid "External scores"
+msgstr "Externé skóre"
+
+#: ../src/top10.c:713
+msgid "Empty ranking. Please practice fluidness."
+msgstr "Hodnotenie je prázdne. Cvičte prosím plynulosť."
+
+#: ../src/top10.c:810
+msgid "Not able to download files"
+msgstr "Nemožno stiahnuť súbory"
+
+#: ../src/top10.c:810 ../src/top10.c:902
+msgid "not found"
+msgstr "nenájdené"
+
+#: ../src/top10.c:811 ../src/top10.c:903
+msgid "Are you sure you have it installed in your system?"
+msgstr "Ste si istý, že to máte nainštalované na svojom systéme?"
+
+#: ../src/top10.c:857
+msgid "Could not download file from the host server."
+msgstr "Nemožno stiahnuť súbory zo serveru."
+
+#: ../src/top10.c:902
+msgid "Not able to upload files"
+msgstr "Nemožno nahrať súbory"
+
+#: ../src/top10.c:989
+msgid "Could not upload/download scores."
+msgstr "Nemožno stiahnuť/nahrať skóre."

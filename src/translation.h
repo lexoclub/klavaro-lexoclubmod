@@ -60,6 +60,7 @@
 "Português BR (pt_BR) [qwerty_br_abnt2]\n" \
 "Português PT (pt_PT) [qwerty_pt]\n" \
 "Русский (ru) [jtsuken_ru]\n" \
+"Slovenčina (sk) [qwerty_sk]\n" \
 "Slovenščina (sl) [qwertz_si]\n" \
 "Српски (sr) [qwertz_rs]\n" \
 "Svenska (sv) [qwerty_se]\n" \
