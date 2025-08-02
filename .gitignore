@@ -1,0 +1,29 @@
+# Compiled object files
+*.o
+
+# Executable files
+*.out
+*.exe
+*.a
+*.so
+
+# Debug and log files
+*.log
+*.core
+*.dSYM/
+
+# Build directories
+/build/
+/bin/
+/obj/
+
+# Editor/IDE backups
+*~
+*.swp
+*.bak
+*.tmp
+.vscode/
+.idea/
+
+# Mac system files
+.DS_Store
