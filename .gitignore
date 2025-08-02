@@ -1,29 +1,78 @@
-# Compiled object files
+# ----------------------
+# Compiled object and binary files
+# ----------------------
 *.o
-
-# Executable files
-*.out
-*.exe
+*.lo
+*.la
 *.a
 *.so
+*.exe
+*.out
+klavaro
 
+# ----------------------
 # Debug and log files
+# ----------------------
 *.log
 *.core
-*.dSYM/
+*.gmo
+stamp-h1
 
-# Build directories
-/build/
-/bin/
-/obj/
+# ----------------------
+# Build system folders and generated files
+# ----------------------
+.deps/
+.libs/
+build/
+bin/
+obj/
+autom4te.cache/
+build-aux/
+m4/
+libtool
+ltmain.sh
 
-# Editor/IDE backups
+# ----------------------
+# Autotools-generated files
+# ----------------------
+aclocal.m4
+compile
+configure
+config.h
+config.h.in
+config.log
+config.status
+install-sh
+Makefile
+Makefile.in
+**/Makefile
+**/Makefile.in
+
+# ----------------------
+# Intltool & translations
+# ----------------------
+po/*.gmo
+po/.intltool-merge-cache*
+po/stamp-it
+po/Makefile
+po/Makefile.in
+po/POTFILES
+
+# ----------------------
+# Editor, IDE, and OS junk files
+# ----------------------
 *~
 *.swp
 *.bak
 *.tmp
+*.orig
+*.rej
 .vscode/
 .idea/
-
-# Mac system files
 .DS_Store
+
+# -----------------------
+# Generated desktop integration files
+data/klavaro.desktop
+data/klavaro.appdata.xml
+# -----------------------
