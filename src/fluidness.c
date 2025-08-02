@@ -255,8 +255,8 @@ fluid_draw_random_paragraphs ()
 	gint i, j;
 	gint par_num;
 	gint rand_i[10];
-#	define FLUID_PARBUF 50
-	static gchar *text[FLUID_PARBUF] = {
+
+	static gchar *text[MAX_PARAGRAPHS] = {
 		NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 
 		NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
 		NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
@@ -270,7 +270,7 @@ fluid_draw_random_paragraphs ()
 	 */
 	if (par_num == 0 || (main_velo_txt () && tutor_get_type () == TT_VELO))
 	{
-		par_num = par.len > FLUID_PARBUF ? FLUID_PARBUF : par.len;
+		par_num = par.len > MAX_PARAGRAPHS ? MAX_PARAGRAPHS : par.len;
 
 		for (i = 0; i < par_num; i++)
 			g_free (text[i]);

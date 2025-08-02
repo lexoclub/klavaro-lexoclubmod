@@ -15,7 +15,7 @@
 /*  along with Klavaro.  If not, see <https://www.gnu.org/licenses/>      */
 /**************************************************************************/
 
-#define MAX_PARAGRAPHS 100
+#define MAX_PARAGRAPHS 4096
 #define MAX_PAR_LEN 2001
 
 /*
