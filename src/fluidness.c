@@ -409,7 +409,6 @@ fluid_filter_utf8 (gchar * text)
 			raw.npar++;
 			flt.txt[flt.i++] = '\n';
 			flt.txt[flt.i++] = '\n';
-			for (; *raw.pt == '\n' || *raw.pt == ' '; raw.pt++);
 		}
 		else
 			flt.i += g_unichar_to_utf8 (uch, &flt.txt[flt.i]);
